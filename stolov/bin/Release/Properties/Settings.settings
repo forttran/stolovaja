@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="stolov.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=SERVER4-MGN.m74.local;Initial Catalog=dfirm002_gmk;Persist Security Info=True;User ID=sa;Password=456123</Value>
+    </Setting>
+    <Setting Name="GeneratePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\CSVCheck</Value>
+    </Setting>
+    <Setting Name="holidayMsg" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Prints" Type="System.String" Scope="User">
+      <Value Profile="(Default)">444</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

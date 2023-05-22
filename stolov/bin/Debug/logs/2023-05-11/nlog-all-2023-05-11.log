@@ -1,0 +1,459 @@
+2023-05-11 08:52:52.0164|DEBUG|stolov.Order|Новый заказ
+2023-05-11 08:52:52.0764|DEBUG|stolov.Order|Табельный: 1042
+2023-05-11 08:52:52.0764|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-11 08:52:52.0764|DEBUG|stolov.Order|товар: 0 Горчица столовая 1 2.000000
+2023-05-11 08:52:52.0764|DEBUG|stolov.Order|товар: 0 Свекла с изюмом, сметаной 1 18.500000
+2023-05-11 08:52:52.0764|DEBUG|stolov.Order|товар: 1 Окрошка мясная 1 32.500000
+2023-05-11 08:52:52.0764|DEBUG|stolov.Order|товар: 2 Биточки мясные 1 42.900000
+2023-05-11 08:52:52.0764|DEBUG|stolov.Order|товар: 2 Гуляш из говядины 1 79.800000
+2023-05-11 10:15:46.1789|DEBUG|stolov.Order|Новый заказ
+2023-05-11 10:15:46.2379|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 10:15:46.2379|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 10:15:46.2379|DEBUG|stolov.Order|товар: 2 Биточки мясные 0.5 42.900000
+2023-05-11 10:15:46.2379|DEBUG|stolov.Order|товар: 0 Салат Витаминный с перцем 1 26.000000
+2023-05-11 10:15:46.2379|DEBUG|stolov.Order|товар: 0 Сельдь "под шубой" 1 33.000000
+2023-05-11 10:15:46.2379|DEBUG|stolov.Order|товар: 2 Гуляш из говядины 1 79.800000
+2023-05-11 10:15:46.2379|DEBUG|stolov.Order|товар: 3 Капуста цветная жареная 2 35.700000
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|Новый заказ
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|Табельный: 1048
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|товар: 3 Капуста цветная жареная 0.5 35.700000
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|товар: 0 Горчица столовая 1 2.000000
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|товар: 0 Салат грузинский 1 40.000000
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|товар: 1 Суп картофельный с шампиньонами 1 29.500000
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|товар: 2 Гуляш из говядины 1 79.800000
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|товар: 3 Макаронные изделия отварные 1 17.500000
+2023-05-11 10:31:13.9480|DEBUG|stolov.Order|товар: 4 Сырники из творога 1 33.000000
+2023-05-11 13:16:06.4611|DEBUG|stolov.Order|Новый заказ
+2023-05-11 13:16:06.5221|DEBUG|stolov.Order|Табельный: 1042
+2023-05-11 13:16:06.5221|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-11 13:16:06.5221|DEBUG|stolov.Order|товар: Кетчуп 30 1 6.000000
+2023-05-11 13:16:06.5221|DEBUG|stolov.Order|товар: Свекла с изюмом, сметано 1 18.500000
+2023-05-11 13:16:06.5221|DEBUG|stolov.Order|товар: Солянка домашняя со сметано 2 49.500000
+2023-05-11 13:16:06.5221|DEBUG|stolov.Order|товар: Биточки мясны 3 42.900000
+2023-05-11 13:16:06.5221|DEBUG|stolov.Order|товар: Грудка отбивная с сыром,майонезо 4 58.500000
+2023-05-11 13:16:06.5221|DEBUG|stolov.Order|товар: Шницель натуральный рублены 5 49.400000
+2023-05-11 13:17:19.1519|DEBUG|stolov.Order|Новый заказ
+2023-05-11 13:17:19.2091|DEBUG|stolov.Order|Табельный: 1048
+2023-05-11 13:17:19.2091|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-11 13:17:19.2091|DEBUG|stolov.Order|товар: Кетчуп 30г 1 6.000000
+2023-05-11 13:17:19.2091|DEBUG|stolov.Order|товар: Солянка домашняя со сметаной 1 49.500000
+2023-05-11 13:17:19.2091|DEBUG|stolov.Order|товар: Горбуша жареная в яйце 1 50.500000
+2023-05-11 13:17:19.2091|DEBUG|stolov.Order|товар: Шницель натуральный рубленый 1 49.400000
+2023-05-11 13:17:19.2091|DEBUG|stolov.Order|товар: Каша гречневая 1 17.500000
+2023-05-11 13:22:10.9900|DEBUG|stolov.Order|Новый заказ
+2023-05-11 13:22:11.0480|DEBUG|stolov.Order|Табельный: 1042
+2023-05-11 13:22:11.0480|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-11 13:22:11.0480|DEBUG|stolov.Order|товар: Кетчуп 30г 1 6.000000
+2023-05-11 13:22:11.0480|DEBUG|stolov.Order|товар: Сельдь "под шубой" 1 33.000000
+2023-05-11 13:22:11.0480|DEBUG|stolov.Order|товар: Солянка домашняя со сметаной 1 49.500000
+2023-05-11 13:27:27.3296|DEBUG|stolov.Order|Новый заказ
+2023-05-11 13:27:27.3886|DEBUG|stolov.Order|Табельный: 1042
+2023-05-11 13:27:27.3886|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-11 13:27:27.3886|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 13:27:27.3886|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 13:27:27.3886|DEBUG|stolov.Order|товар: Салат грузинский 3 40.000000
+2023-05-11 13:27:27.3886|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 4 18.500000
+2023-05-11 13:27:27.3886|DEBUG|stolov.Order|товар: Окрошка мясная 5 32.500000
+2023-05-11 13:27:51.7179|DEBUG|stolov.Order|Новый заказ
+2023-05-11 13:27:51.7179|DEBUG|stolov.Order|Табельный: 1118
+2023-05-11 13:27:51.7179|DEBUG|stolov.Order|ФИО: Агафонов Владислав Захарович
+2023-05-11 13:27:51.7179|DEBUG|stolov.Order|товар: Салат грузинский 1 40.000000
+2023-05-11 13:27:51.7179|DEBUG|stolov.Order|товар: Окрошка мясная 1 32.500000
+2023-05-11 13:27:51.7179|DEBUG|stolov.Order|товар: Биточки мясные 1 42.900000
+2023-05-11 13:27:51.7179|DEBUG|stolov.Order|товар: Сердце куриное тушеное в красном соусе 1 55.500000
+2023-05-11 13:27:51.7179|DEBUG|stolov.Order|товар: Капуста цветная жареная 1 35.700000
+2023-05-11 13:27:51.7179|DEBUG|stolov.Order|товар: Каша молочная Дружба 1 27.500000
+2023-05-11 15:51:56.2463|DEBUG|stolov.Order|Новый заказ
+2023-05-11 15:51:56.3293|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 15:51:56.3293|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 15:51:56.3293|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 15:51:56.3293|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 15:51:56.3293|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 15:51:56.3293|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 15:51:56.3293|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 15:51:59.9358|DEBUG|stolov.OrdersToISPRO|zkg=5004833sum=344.5
+2023-05-11 15:51:59.9660|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813
+2023-05-11 15:51:59.9660|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503
+2023-05-11 15:51:59.9660|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798
+2023-05-11 15:51:59.9660|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829
+2023-05-11 15:51:59.9660|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838
+2023-05-11 15:56:31.1216|DEBUG|stolov.Order|Новый заказ
+2023-05-11 15:56:31.1814|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 15:56:31.1824|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 15:56:31.1824|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 15:56:31.1824|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 15:56:31.1824|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 15:56:31.1824|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 15:56:31.1824|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 15:56:56.4493|DEBUG|stolov.Order|Новый заказ
+2023-05-11 15:56:56.4493|DEBUG|stolov.Order|Табельный: 1042
+2023-05-11 15:56:56.4493|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-11 15:56:56.4493|DEBUG|stolov.Order|товар: Горчица столовая 3 2.000000
+2023-05-11 15:56:56.4493|DEBUG|stolov.Order|товар: Кетчуп 30г 3 6.000000
+2023-05-11 15:56:56.4493|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 15:56:56.4493|DEBUG|stolov.Order|товар: Салат грузинский 3 40.000000
+2023-05-11 15:57:04.6614|DEBUG|stolov.OrdersToISPRO|zkg=5004834sum=344.5
+2023-05-11 15:57:04.6614|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131
+2023-05-11 15:57:04.6674|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604
+2023-05-11 15:57:04.6674|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076
+2023-05-11 15:57:04.6674|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107
+2023-05-11 15:57:04.6674|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077
+2023-05-11 15:57:04.6674|DEBUG|stolov.OrdersToISPRO|zkg=5004834sum=222
+2023-05-11 15:57:04.6674|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|3|2.000000|9813|64131
+2023-05-11 15:57:04.6674|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|3|6.000000|9503|63604
+2023-05-11 15:57:04.6674|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076
+2023-05-11 15:57:04.6674|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|3|40.000000|829|74107
+2023-05-11 15:59:03.5173|DEBUG|stolov.Order|Новый заказ
+2023-05-11 15:59:03.5743|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 15:59:03.5743|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 15:59:03.5743|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 15:59:03.5743|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 15:59:03.5743|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 15:59:03.5743|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 15:59:03.5743|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 15:59:03.5743|DEBUG|stolov.Order|товар: Сельдь "под шубой" 6 33.000000
+2023-05-11 15:59:30.0399|DEBUG|stolov.Order|Новый заказ
+2023-05-11 15:59:30.0419|DEBUG|stolov.Order|Табельный: 1042
+2023-05-11 15:59:30.0419|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-11 15:59:30.0419|DEBUG|stolov.Order|товар: Горчица столовая 2 2.000000
+2023-05-11 15:59:30.0419|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 15:59:30.0419|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 2 26.000000
+2023-05-11 15:59:30.0419|DEBUG|stolov.Order|товар: Салат грузинский 2 40.000000
+2023-05-11 15:59:30.0419|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 2 18.500000
+2023-05-11 15:59:30.0419|DEBUG|stolov.Order|товар: Сельдь "под шубой" 2 33.000000
+2023-05-11 15:59:35.6162|DEBUG|stolov.OrdersToISPRO|zkg=5004835sum=542.5
+2023-05-11 15:59:35.6162|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077|51
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO||4392|11170000000000001038|Сельдь "под шубой"|Холодные блюда|порц.|6|33.000000|822|74093|51
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO|zkg=5004835sum=251
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|2|2.000000|9813|64131|51
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|2|26.000000|9798|74076|51
+2023-05-11 15:59:35.6202|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|2|40.000000|829|74107|51
+2023-05-11 15:59:35.6382|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|2|18.500000|838|74077|51
+2023-05-11 15:59:35.6382|DEBUG|stolov.OrdersToISPRO||4392|11170000000000001038|Сельдь "под шубой"|Холодные блюда|порц.|2|33.000000|822|74093|51
+2023-05-11 16:09:02.0685|DEBUG|stolov.Order|Новый заказ
+2023-05-11 16:09:02.1315|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 16:09:02.1315|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 16:09:02.1315|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 16:09:02.1315|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 16:09:02.1315|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 16:09:02.1315|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 16:09:02.1315|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 16:09:02.1315|DEBUG|stolov.Order|товар: Сельдь "под шубой" 6 33.000000
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу PrdZkg
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "TRYBEGIN".
+Необходимо объявить скалярную переменную "@dat".
+Неправильный синтаксис около конструкции "@StrNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Неправильный синтаксис около конструкции "@nalog".
+Необходимо объявить скалярную переменную "@nalog".
+Необходимо объявить скалярную переменную "@usr".
+Необходимо объявить скалярную переменную "@StrNmr".; Source: .Net SqlClient Data Provider
+2023-05-11 16:09:04.1676|DEBUG|stolov.OrdersToISPRO|zkg=5004836sum=542.5
+2023-05-11 16:09:04.1676|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:09:04.1676|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:09:04.1676|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:09:04.1676|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:09:04.1676|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077|51
+2023-05-11 16:09:04.1676|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:09:04.1826|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:09:04.1826|DEBUG|stolov.OrdersToISPRO||4392|11170000000000001038|Сельдь "под шубой"|Холодные блюда|порц.|6|33.000000|822|74093|51
+2023-05-11 16:09:04.1826|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:09:04.1826|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:11:51.0301|DEBUG|stolov.Order|Новый заказ
+2023-05-11 16:11:51.0885|DEBUG|stolov.Order|Табельный: 1042
+2023-05-11 16:11:51.0885|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-11 16:11:51.0885|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 16:11:51.0885|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 16:11:51.0885|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 16:11:51.0885|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 16:11:51.0885|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 16:11:52.6766|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу PrdZkg
+2023-05-11 16:11:52.6766|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "TRYBEGIN".
+Необходимо объявить скалярную переменную "@dat".
+Неправильный синтаксис около конструкции "@StrNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Неправильный синтаксис около конструкции "@nalog".
+Необходимо объявить скалярную переменную "@nalog".
+Необходимо объявить скалярную переменную "@usr".
+Необходимо объявить скалярную переменную "@StrNmr".; Source: .Net SqlClient Data Provider
+2023-05-11 16:11:52.6766|DEBUG|stolov.OrdersToISPRO|zkg=5004837sum=344.5
+2023-05-11 16:11:52.6766|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:11:52.6826|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:11:52.6826|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:11:52.6826|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:11:52.6826|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077|51
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:11:52.6826|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:22:38.8475|DEBUG|stolov.Order|Новый заказ
+2023-05-11 16:22:38.9065|DEBUG|stolov.Order|Табельный: 2504
+2023-05-11 16:22:38.9065|DEBUG|stolov.Order|ФИО: Васин Валентин Валерьевич
+2023-05-11 16:22:38.9065|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 16:22:38.9065|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 16:22:38.9065|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 16:22:38.9065|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 16:22:38.9065|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 16:22:40.9567|ERROR|stolov.OrdersToISPRO|BEGIN TRYBEGIN TRANdeclare @dat VARCHAR(8)set @dat = '20230511'DECLARE @RcdNmr BIGINTDECLARE @StrNmr VARCHAR(20)SELECT @RcdNmr = MAX(PrdZkg_RcdNmr)  FROM PRDZKGWHERE PrdZkg_RcdNmr < 9999999 and (PRDZKG_Dt = CONVERT(date, @dat) )SET @RcdNmr = ISNULL(@RcdNmr,0) + 1IF @RcdNmr > 10000000 SET @RcdNmr = 10000000SET @StrNmr = RIGHT('00000000'+CONVERT(VARCHAR(20),@RcdNmr),8)DECLARE @sum FLOATDECLARE @nalog FLOATDECLARE @usr BIGINTset @sum = 344.5set @nalog = 44.785set @usr = 34INSERT INTO PrdZkg(PrdZkg_Rcd,  PrdZkg_JrnRcd, PrdZkg_Nmr,  PrdZkg_Dt, PrdZkg_DtOtg, PrdZkg_UslD, PrdZkg_KAgID, PrdZkg_RcvrID, PrdZkg_RcvrNm,  PrdZkg_RcdNmr,  PrdZkg_DtOpl, PrdZkg_DtRes, PrdZkg_Sm,  PrdZkg_ValID, PrdZkg_ValKot, PrdZkg_ValKur, PrdZkg_AvSum, PrdZkg_SmNds, PrdZkg_SmTax, PrdZkg_SmWoNds, PrdZkg_TaxMdl, PrdZkg_Prior, PrdZkg_CdUsr)values(5004838,  75, @StrNmr,  @dat, @dat, 1, 4869, 4869, 'ПОКУПАТЕЛЬ СТОЛОВОЙ',  @RcdNmr, @dat, @dat, @sum, 1, 0, 1.0, 0, @nalog, @nalog, @sum-@nalog, 13, 1, @usr)--select * from PRDZKG where PrdZkg_JrnRcd=75COMMIT TRANEND TRYBEGIN CATCHROLLBACK TRANEND CATCH
+2023-05-11 16:22:40.9567|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу PrdZkg
+2023-05-11 16:22:40.9567|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "TRYBEGIN".
+Необходимо объявить скалярную переменную "@dat".
+Неправильный синтаксис около конструкции "@StrNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Необходимо объявить скалярную переменную "@RcdNmr".
+Неправильный синтаксис около конструкции "@nalog".
+Необходимо объявить скалярную переменную "@nalog".
+Необходимо объявить скалярную переменную "@usr".
+Необходимо объявить скалярную переменную "@StrNmr".; Source: .Net SqlClient Data Provider
+2023-05-11 16:22:40.9567|DEBUG|stolov.OrdersToISPRO|zkg=5004838sum=344.5
+2023-05-11 16:22:40.9567|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 16:22:40.9567|ERROR|stolov.OrdersToISPRO|declare @dt VARCHAR(8)set @dt = '20230511'DECLARE @cnt FLOATDECLARE @sum FLOATDECLARE @tax FLOATset @cnt = 1set @sum = 2.000000set @tax = 0.26INSERT INTO TRDS(TrdS_Rcd, TrdS_TypHdr, TrdS_RcdHdr, TrdS_Dat, TrdS_KAgRcd, TrdS_RcdOpa, TrdS_RcdNom, TrdS_Dest, TrdS_RcdPrc, TrdS_EiQt, TrdS_EiCn, TrdS_Qt, TrdS_QtOsn, TrdS_QtCn, TrdS_CnFul, TrdS_Cn, TrdS_CnSkl, TrdS_Sum, TrdS_SumOpl, TrdS_SumSkl, TrdS_SumTax, TrdS_SumTSk, TrdS_CnExt, TrdS_SumExt, TrdS_ValCd, TrdS_ValKur, TrdS_TpCn, TrdS_CdPrc, TrdS_Dat1, TrdS_Dat2, TrdS_NewFlg)values(187830046, 17, 5004838, @dt, 4869, 9813, 00000000000000005417, 2, 64131, 51, 51, @cnt, @cnt, @cnt, @sum, @sum, @sum, @sum, @sum, @sum, @tax, -@tax, @sum, @sum, 1, 1.0, 1, 267, @dt, @dt, 1)
+2023-05-11 16:22:40.9567|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:22:40.9567|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:22:40.9647|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|declare @dt VARCHAR(8)set @dt = '20230511'DECLARE @cnt FLOATDECLARE @sum FLOATDECLARE @tax FLOATset @cnt = 2set @sum = 6.000000set @tax = 0.78INSERT INTO TRDS(TrdS_Rcd, TrdS_TypHdr, TrdS_RcdHdr, TrdS_Dat, TrdS_KAgRcd, TrdS_RcdOpa, TrdS_RcdNom, TrdS_Dest, TrdS_RcdPrc, TrdS_EiQt, TrdS_EiCn, TrdS_Qt, TrdS_QtOsn, TrdS_QtCn, TrdS_CnFul, TrdS_Cn, TrdS_CnSkl, TrdS_Sum, TrdS_SumOpl, TrdS_SumSkl, TrdS_SumTax, TrdS_SumTSk, TrdS_CnExt, TrdS_SumExt, TrdS_ValCd, TrdS_ValKur, TrdS_TpCn, TrdS_CdPrc, TrdS_Dat1, TrdS_Dat2, TrdS_NewFlg)values(187830047, 17, 5004838, @dt, 4869, 9503, 00000000000000005118, 2, 63604, 51, 51, @cnt, @cnt, @cnt, @sum, @sum, @sum, @sum, @sum, @sum, @tax, -@tax, @sum, @sum, 1, 1.0, 1, 267, @dt, @dt, 1)
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:22:40.9647|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|declare @dt VARCHAR(8)set @dt = '20230511'DECLARE @cnt FLOATDECLARE @sum FLOATDECLARE @tax FLOATset @cnt = 3set @sum = 26.000000set @tax = 3.38INSERT INTO TRDS(TrdS_Rcd, TrdS_TypHdr, TrdS_RcdHdr, TrdS_Dat, TrdS_KAgRcd, TrdS_RcdOpa, TrdS_RcdNom, TrdS_Dest, TrdS_RcdPrc, TrdS_EiQt, TrdS_EiCn, TrdS_Qt, TrdS_QtOsn, TrdS_QtCn, TrdS_CnFul, TrdS_Cn, TrdS_CnSkl, TrdS_Sum, TrdS_SumOpl, TrdS_SumSkl, TrdS_SumTax, TrdS_SumTSk, TrdS_CnExt, TrdS_SumExt, TrdS_ValCd, TrdS_ValKur, TrdS_TpCn, TrdS_CdPrc, TrdS_Dat1, TrdS_Dat2, TrdS_NewFlg)values(187830048, 17, 5004838, @dt, 4869, 9798, 00000000000000005402, 2, 74076, 51, 51, @cnt, @cnt, @cnt, @sum, @sum, @sum, @sum, @sum, @sum, @tax, -@tax, @sum, @sum, 1, 1.0, 1, 267, @dt, @dt, 1)
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:22:40.9647|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|declare @dt VARCHAR(8)set @dt = '20230511'DECLARE @cnt FLOATDECLARE @sum FLOATDECLARE @tax FLOATset @cnt = 4set @sum = 40.000000set @tax = 5.2INSERT INTO TRDS(TrdS_Rcd, TrdS_TypHdr, TrdS_RcdHdr, TrdS_Dat, TrdS_KAgRcd, TrdS_RcdOpa, TrdS_RcdNom, TrdS_Dest, TrdS_RcdPrc, TrdS_EiQt, TrdS_EiCn, TrdS_Qt, TrdS_QtOsn, TrdS_QtCn, TrdS_CnFul, TrdS_Cn, TrdS_CnSkl, TrdS_Sum, TrdS_SumOpl, TrdS_SumSkl, TrdS_SumTax, TrdS_SumTSk, TrdS_CnExt, TrdS_SumExt, TrdS_ValCd, TrdS_ValKur, TrdS_TpCn, TrdS_CdPrc, TrdS_Dat1, TrdS_Dat2, TrdS_NewFlg)values(187830049, 17, 5004838, @dt, 4869, 829, 11170000000000001028, 2, 74107, 51, 51, @cnt, @cnt, @cnt, @sum, @sum, @sum, @sum, @sum, @sum, @tax, -@tax, @sum, @sum, 1, 1.0, 1, 267, @dt, @dt, 1)
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:22:40.9647|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077|51
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|declare @dt VARCHAR(8)set @dt = '20230511'DECLARE @cnt FLOATDECLARE @sum FLOATDECLARE @tax FLOATset @cnt = 5set @sum = 18.500000set @tax = 2.405INSERT INTO TRDS(TrdS_Rcd, TrdS_TypHdr, TrdS_RcdHdr, TrdS_Dat, TrdS_KAgRcd, TrdS_RcdOpa, TrdS_RcdNom, TrdS_Dest, TrdS_RcdPrc, TrdS_EiQt, TrdS_EiCn, TrdS_Qt, TrdS_QtOsn, TrdS_QtCn, TrdS_CnFul, TrdS_Cn, TrdS_CnSkl, TrdS_Sum, TrdS_SumOpl, TrdS_SumSkl, TrdS_SumTax, TrdS_SumTSk, TrdS_CnExt, TrdS_SumExt, TrdS_ValCd, TrdS_ValKur, TrdS_TpCn, TrdS_CdPrc, TrdS_Dat1, TrdS_Dat2, TrdS_NewFlg)values(187830050, 17, 5004838, @dt, 4869, 838, 11170000000000001050, 2, 74077, 51, 51, @cnt, @cnt, @cnt, @sum, @sum, @sum, @sum, @sum, @sum, @tax, -@tax, @sum, @sum, 1, 1.0, 1, 267, @dt, @dt, 1)
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:22:40.9647|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции "@sum".
+Необходимо объявить скалярную переменную "@sum".
+Необходимо объявить скалярную переменную "@tax".
+Необходимо объявить скалярную переменную "@cnt".; Source: .Net SqlClient Data Provider
+2023-05-11 16:25:36.7840|DEBUG|stolov.Order|Новый заказ
+2023-05-11 16:25:36.8407|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 16:25:36.8407|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 16:25:36.8407|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 16:25:36.8407|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 16:25:36.8407|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 16:25:36.8407|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 16:25:36.8407|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 16:25:49.7132|ERROR|stolov.OrdersToISPRO|BEGIN TRY BEGIN TRAN declare @dat VARCHAR(8) set @dat = '20230511' DECLARE @RcdNmr BIGINT DECLARE @StrNmr VARCHAR(20) SELECT @RcdNmr = MAX(PrdZkg_RcdNmr)  FROM PRDZKG WHERE PrdZkg_RcdNmr < 9999999 and (PRDZKG_Dt = CONVERT(date, @dat) ) SET @RcdNmr = ISNULL(@RcdNmr,0) + 1 IF @RcdNmr > 10000000 SET @RcdNmr = 10000000 SET @StrNmr = RIGHT('00000000'+CONVERT(VARCHAR(20),@RcdNmr),8) DECLARE @sum FLOAT DECLARE @nalog FLOAT DECLARE @usr BIGINT set @sum = 344.5 set @nalog = 44.785 set @usr = 34 INSERT INTO PrdZkg( PrdZkg_Rcd,  PrdZkg_JrnRcd, PrdZkg_Nmr,  PrdZkg_Dt, PrdZkg_DtOtg, PrdZkg_UslD, PrdZkg_KAgID, PrdZkg_RcvrID, PrdZkg_RcvrNm,  PrdZkg_RcdNmr,  PrdZkg_DtOpl, PrdZkg_DtRes, PrdZkg_Sm,  PrdZkg_ValID, PrdZkg_ValKot, PrdZkg_ValKur, PrdZkg_AvSum, PrdZkg_SmNds, PrdZkg_SmTax, PrdZkg_SmWoNds, PrdZkg_TaxMdl, PrdZkg_Prior, PrdZkg_CdUsr )values(5004839,  75, @StrNmr,  @dat, @dat, 1, 4869, 4869, 'ПОКУПАТЕЛЬ СТОЛОВОЙ',  @RcdNmr, @dat, @dat, @sum, 1, 0, 1.0, 0, @nalog, @nalog, @sum-@nalog, 13, 1, @usr)--select * from PRDZKG where PrdZkg_JrnRcd=75 COMMIT TRAN END TRY BEGIN CATCH ROLLBACK TRAN END CATCH
+2023-05-11 16:25:49.7132|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу PrdZkg
+2023-05-11 16:25:49.7132|ERROR|stolov.OrdersToISPRO|Ошибка: Неправильный синтаксис около конструкции ")".; Source: .Net SqlClient Data Provider
+2023-05-11 16:25:49.7132|DEBUG|stolov.OrdersToISPRO|zkg=5004839sum=344.5
+2023-05-11 16:25:49.7132|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 16:25:49.8054|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 16:25:49.8474|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 16:25:49.8775|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 16:25:49.8935|ERROR|stolov.OrdersToISPRO|declare @dt VARCHAR(8) set @dt = '20230511' DECLARE @cnt FLOAT DECLARE @sum FLOAT DECLARE @tax FLOAT set @cnt = 4 set @sum = 40.000000 set @tax = 5.2 INSERT INTO TRDS(TrdS_Rcd, TrdS_TypHdr, TrdS_RcdHdr, TrdS_Dat, TrdS_KAgRcd, TrdS_RcdOpa, TrdS_RcdNom, TrdS_Dest, TrdS_RcdPrc, TrdS_EiQt, TrdS_EiCn, TrdS_Qt, TrdS_QtOsn, TrdS_QtCn, TrdS_CnFul, TrdS_Cn, TrdS_CnSkl, TrdS_Sum, TrdS_SumOpl, TrdS_SumSkl, TrdS_SumTax, TrdS_SumTSk, TrdS_CnExt, TrdS_SumExt, TrdS_ValCd, TrdS_ValKur, TrdS_TpCn, TrdS_CdPrc, TrdS_Dat1, TrdS_Dat2, TrdS_NewFlg )values(187830054, 17, 5004839, @dt, 4869, 829, 11170000000000001028, 2, 74107, 51, 51, @cnt, @cnt, @cnt, @sum, @sum, @sum, @sum, @sum, @sum, @tax, -@tax, @sum, @sum, 1, 1.0, 1, 267, @dt, @dt, 1)
+2023-05-11 16:25:49.8935|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:25:49.8935|ERROR|stolov.OrdersToISPRO|Ошибка: Ошибка арифметического переполнения при преобразовании expression к типу данных bigint.
+Выполнение данной инструкции было прервано.; Source: .Net SqlClient Data Provider
+2023-05-11 16:25:49.8935|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077|51
+2023-05-11 16:25:49.9145|ERROR|stolov.OrdersToISPRO|declare @dt VARCHAR(8) set @dt = '20230511' DECLARE @cnt FLOAT DECLARE @sum FLOAT DECLARE @tax FLOAT set @cnt = 5 set @sum = 18.500000 set @tax = 2.405 INSERT INTO TRDS(TrdS_Rcd, TrdS_TypHdr, TrdS_RcdHdr, TrdS_Dat, TrdS_KAgRcd, TrdS_RcdOpa, TrdS_RcdNom, TrdS_Dest, TrdS_RcdPrc, TrdS_EiQt, TrdS_EiCn, TrdS_Qt, TrdS_QtOsn, TrdS_QtCn, TrdS_CnFul, TrdS_Cn, TrdS_CnSkl, TrdS_Sum, TrdS_SumOpl, TrdS_SumSkl, TrdS_SumTax, TrdS_SumTSk, TrdS_CnExt, TrdS_SumExt, TrdS_ValCd, TrdS_ValKur, TrdS_TpCn, TrdS_CdPrc, TrdS_Dat1, TrdS_Dat2, TrdS_NewFlg )values(187830055, 17, 5004839, @dt, 4869, 838, 11170000000000001050, 2, 74077, 51, 51, @cnt, @cnt, @cnt, @sum, @sum, @sum, @sum, @sum, @sum, @tax, -@tax, @sum, @sum, 1, 1.0, 1, 267, @dt, @dt, 1)
+2023-05-11 16:25:49.9145|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:25:49.9145|ERROR|stolov.OrdersToISPRO|Ошибка: Ошибка арифметического переполнения при преобразовании expression к типу данных bigint.
+Выполнение данной инструкции было прервано.; Source: .Net SqlClient Data Provider
+2023-05-11 16:28:08.9743|DEBUG|stolov.Order|Новый заказ
+2023-05-11 16:28:09.0253|DEBUG|stolov.Order|Табельный: 1042
+2023-05-11 16:28:09.0253|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-11 16:28:09.0253|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 16:28:09.0253|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 16:28:09.0253|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 16:28:09.0253|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 16:28:09.0263|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 16:28:12.3914|DEBUG|stolov.OrdersToISPRO|zkg=5004840sum=344.5
+2023-05-11 16:28:12.3914|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 16:28:12.4134|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 16:28:12.4314|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 16:28:12.4484|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 16:28:12.4644|ERROR|stolov.OrdersToISPRO|declare @dt VARCHAR(8) set @dt = '20230511' DECLARE @cnt FLOAT DECLARE @sum FLOAT DECLARE @tax FLOAT set @cnt = 4 set @sum = 40.000000 set @tax = 5.2 INSERT INTO TRDS(TrdS_Rcd, TrdS_TypHdr, TrdS_RcdHdr, TrdS_Dat, TrdS_KAgRcd, TrdS_RcdOpa, TrdS_RcdNom, TrdS_Dest, TrdS_RcdPrc, TrdS_EiQt, TrdS_EiCn, TrdS_Qt, TrdS_QtOsn, TrdS_QtCn, TrdS_CnFul, TrdS_Cn, TrdS_CnSkl, TrdS_Sum, TrdS_SumOpl, TrdS_SumSkl, TrdS_SumTax, TrdS_SumTSk, TrdS_CnExt, TrdS_SumExt, TrdS_ValCd, TrdS_ValKur, TrdS_TpCn, TrdS_CdPrc, TrdS_Dat1, TrdS_Dat2, TrdS_NewFlg )values(187830059, 17, 5004840, @dt, 4869, 829, 11170000000000001028, 2, 74107, 51, 51, @cnt, @cnt, @cnt, @sum, @sum, @sum, @sum, @sum, @sum, @tax, -@tax, @sum, @sum, 1, 1.0, 1, 267, @dt, @dt, 1)
+2023-05-11 16:28:12.4644|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:28:12.4644|ERROR|stolov.OrdersToISPRO|Ошибка: Ошибка арифметического переполнения при преобразовании expression к типу данных bigint.
+Выполнение данной инструкции было прервано.; Source: .Net SqlClient Data Provider
+2023-05-11 16:28:12.4644|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077|51
+2023-05-11 16:28:12.4814|ERROR|stolov.OrdersToISPRO|declare @dt VARCHAR(8) set @dt = '20230511' DECLARE @cnt FLOAT DECLARE @sum FLOAT DECLARE @tax FLOAT set @cnt = 5 set @sum = 18.500000 set @tax = 2.405 INSERT INTO TRDS(TrdS_Rcd, TrdS_TypHdr, TrdS_RcdHdr, TrdS_Dat, TrdS_KAgRcd, TrdS_RcdOpa, TrdS_RcdNom, TrdS_Dest, TrdS_RcdPrc, TrdS_EiQt, TrdS_EiCn, TrdS_Qt, TrdS_QtOsn, TrdS_QtCn, TrdS_CnFul, TrdS_Cn, TrdS_CnSkl, TrdS_Sum, TrdS_SumOpl, TrdS_SumSkl, TrdS_SumTax, TrdS_SumTSk, TrdS_CnExt, TrdS_SumExt, TrdS_ValCd, TrdS_ValKur, TrdS_TpCn, TrdS_CdPrc, TrdS_Dat1, TrdS_Dat2, TrdS_NewFlg )values(187830060, 17, 5004840, @dt, 4869, 838, 11170000000000001050, 2, 74077, 51, 51, @cnt, @cnt, @cnt, @sum, @sum, @sum, @sum, @sum, @sum, @tax, -@tax, @sum, @sum, 1, 1.0, 1, 267, @dt, @dt, 1)
+2023-05-11 16:28:12.4814|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу TRDS
+2023-05-11 16:28:12.4814|ERROR|stolov.OrdersToISPRO|Ошибка: Ошибка арифметического переполнения при преобразовании expression к типу данных bigint.
+Выполнение данной инструкции было прервано.; Source: .Net SqlClient Data Provider
+2023-05-11 16:34:20.4467|DEBUG|stolov.Order|Новый заказ
+2023-05-11 16:34:20.5087|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 16:34:20.5087|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 16:34:20.5087|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 16:34:20.5087|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 16:34:20.5087|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 16:34:20.5087|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 16:34:32.3243|DEBUG|stolov.OrdersToISPRO|zkg=5004841sum=252
+2023-05-11 16:34:32.3243|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 16:34:32.3464|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 16:34:32.3694|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 16:34:32.3884|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 16:53:41.1241|DEBUG|stolov.Order|Новый заказ
+2023-05-11 16:53:41.1821|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 16:53:41.1821|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 16:53:41.1821|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 16:53:41.1821|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 16:53:41.1821|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 16:53:41.1821|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 16:53:41.1821|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 16:53:44.0334|DEBUG|stolov.OrdersToISPRO|zkg=5004842sum=344.5
+2023-05-11 16:53:44.0334|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 16:53:44.0564|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 16:53:44.0745|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 16:53:44.0945|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 16:53:44.1175|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077|51
+2023-05-11 18:57:11.5068|DEBUG|stolov.Order|Новый заказ
+2023-05-11 18:57:11.5758|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 18:57:11.5758|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 18:57:11.5758|DEBUG|stolov.Order|товар: Мороженое Cт плом крем-брюле 1вк 2 41.000000
+2023-05-11 18:57:11.5758|DEBUG|stolov.Order|товар: Мороженое Веc плом 0.9кг 1вк 2 308.000000
+2023-05-11 18:57:11.5758|DEBUG|stolov.Order|товар: Горчица столовая 3 2.000000
+2023-05-11 18:57:11.5758|DEBUG|stolov.Order|товар: Кетчуп 30г 3 6.000000
+2023-05-11 18:57:20.2128|DEBUG|stolov.OrdersToISPRO|zkg=5004843sum=722
+2023-05-11 18:57:20.2168|DEBUG|stolov.OrdersToISPRO||24785|10028000000000000002|Мороженое Cт плом крем-брюле 1вк|Мороженое|шт|2|41.000000|145770|59269|5
+2023-05-11 18:57:20.2628|DEBUG|stolov.OrdersToISPRO||31186|10028000000000000027|Мороженое Веc плом 0.9кг 1вк|Мороженое|шт|2|308.000000|203628|70511|5
+2023-05-11 18:57:20.3138|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|3|2.000000|9813|64131|51
+2023-05-11 18:57:20.3318|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|3|6.000000|9503|63604|51
+2023-05-11 19:39:36.3036|DEBUG|stolov.Order|Новый заказ
+2023-05-11 19:39:36.3806|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 19:39:36.3806|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 19:39:36.3806|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 19:39:36.3806|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 19:39:36.3806|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 19:39:36.3806|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 19:39:42.6134|ERROR|stolov.OrdersToISPRO|insert into UFPRV (UF_TblId,UF_TblRcd,UF_RkRcd,UF_RkValN )values (391,@PrdZkgRcd  ,286,3814)
+2023-05-11 19:39:42.6134|ERROR|stolov.OrdersToISPRO|Ошибка вставки в таблицу UFPRV
+2023-05-11 19:39:42.6134|ERROR|stolov.OrdersToISPRO|Ошибка: Необходимо объявить скалярную переменную "@PrdZkgRcd".; Source: .Net SqlClient Data Provider
+2023-05-11 19:39:42.6134|DEBUG|stolov.OrdersToISPRO|zkg=5004844sum=252
+2023-05-11 19:39:42.6304|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 19:39:42.6504|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 19:39:42.6704|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 19:39:42.6964|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 19:41:16.7525|DEBUG|stolov.Order|Новый заказ
+2023-05-11 19:41:16.8125|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 19:41:16.8125|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 19:41:16.8125|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 19:41:16.8125|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 19:41:16.8125|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 19:41:16.8125|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 19:41:25.5519|DEBUG|stolov.OrdersToISPRO|zkg=5004845sum=252
+2023-05-11 19:41:25.5519|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 19:41:25.5790|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 19:41:25.6080|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 19:41:25.6260|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 19:47:03.9498|DEBUG|stolov.Order|Новый заказ
+2023-05-11 19:47:04.0098|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 19:47:04.0108|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 19:47:04.0108|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 19:47:04.0108|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 19:47:04.0108|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 19:47:04.0108|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 19:47:04.0108|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 19:47:12.1903|DEBUG|stolov.OrdersToISPRO|zkg=5004846sum=344.5
+2023-05-11 19:47:12.1903|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 19:47:12.2323|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 19:47:12.2503|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 19:47:12.2693|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 19:47:12.2894|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077|51
+2023-05-11 20:08:52.2322|DEBUG|stolov.Order|Новый заказ
+2023-05-11 20:08:52.3232|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 20:08:52.3232|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 20:08:52.3232|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 20:08:52.3232|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 20:08:52.3232|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 20:08:52.3232|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 20:09:00.3133|DEBUG|stolov.OrdersToISPRO|zkg=5004847sum=252
+2023-05-11 20:09:00.3133|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 20:09:00.3463|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 20:09:00.3643|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 20:09:00.3813|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 20:32:52.2334|DEBUG|stolov.Order|Новый заказ
+2023-05-11 20:32:52.3024|DEBUG|stolov.Order|Табельный: 3814
+2023-05-11 20:32:52.3024|DEBUG|stolov.Order|ФИО: Васильев Сергей Николаевич
+2023-05-11 20:32:52.3024|DEBUG|stolov.Order|товар: Горчица столовая 1 2.000000
+2023-05-11 20:32:52.3024|DEBUG|stolov.Order|товар: Кетчуп 30г 2 6.000000
+2023-05-11 20:32:52.3024|DEBUG|stolov.Order|товар: Салат Витаминный с перцем 3 26.000000
+2023-05-11 20:32:52.3024|DEBUG|stolov.Order|товар: Салат грузинский 4 40.000000
+2023-05-11 20:32:52.3024|DEBUG|stolov.Order|товар: Свекла с изюмом, сметаной 5 18.500000
+2023-05-11 20:32:58.9752|DEBUG|stolov.OrdersToISPRO|zkg=5004848sum=344.5
+2023-05-11 20:32:58.9752|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-11 20:32:58.9972|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-11 20:32:59.0142|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-11 20:32:59.0302|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|Салат грузинский|Холодные блюда|порц.|4|40.000000|829|74107|51
+2023-05-11 20:32:59.0472|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|Свекла с изюмом, сметаной|Холодные блюда|порц.|5|18.500000|838|74077|51
