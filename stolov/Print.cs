@@ -70,7 +70,7 @@ namespace stolov {
 				pd.PrinterSettings.PrintFileName = @"C:\1.pdf";
 				pd.DocumentName = "Чек столовой №" + this.num.ToString();
 				pd.Print();
-			} catch(Exception ex) {
+			} catch {
 				MessageBox.Show("Зайдите в настройки и выберете принтер на котором будут печататься чеки");
 			}
 

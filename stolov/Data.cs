@@ -69,8 +69,8 @@ namespace stolov {
 		public void elementRemove(int row) {
 			OrderElementList.RemoveAt(row);
 			OrderElementListView.RemoveAt(row);
-			dataXML xml = new dataXML();
-			xml.deleteXML(row);
+			DataXML xml = new DataXML();
+			xml.DeleteXML(row);
 		}
 	}
 }

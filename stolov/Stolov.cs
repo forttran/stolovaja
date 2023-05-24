@@ -54,7 +54,7 @@ namespace stolov {
 			this.listOrderElements.Columns[2].Width = 270;
 			this.listOrderElements.Columns[3].HeaderText = "Сумма";
 			this.listOrderElements.Columns[3].Width = 130;
-			dataXML xml = new dataXML();
+			DataXML xml = new DataXML();
 			xml.GetXML();
 		}
 
@@ -83,8 +83,8 @@ namespace stolov {
 		private void DownloadIsPRO_Click(object sender, EventArgs e) {
 			Data data = Data.getInstance();
 			if (data.OrderElementList.Count > 0) {
-				dataXML xml = new dataXML();
-				xml.cloneXML();
+				DataXML xml = new DataXML();
+				xml.CloneXML();
 				OrdersToISPRO OrdersToISPRO = new OrdersToISPRO();
 				OrdersToISPRO.TMPtoPrdZkg();
 				MessageBox.Show("Данные выгружены");

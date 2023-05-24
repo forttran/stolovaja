@@ -71,7 +71,6 @@ namespace stolov {
 			String FIO = "";
 			String tab = "";
 			data.orderElement.order = data.order.Copy();
-			currentClassLogger.Debug("data.item2=" + data.item);
 			if (data.orderElement.inAction == -1) {
 				data.orderElement.inAction = data.OrderElementList.Count;
 				data.OrderElementList.Add(data.orderElement);
@@ -80,15 +79,13 @@ namespace stolov {
 					tab = data.orderElement.user[0].ToString();
 				}
 				data.OrderElementListView.Add(new OrderElementView(data.OrderElementListView.Count + 1, FIO, data.orderElement.getSum()));
-				dataXML xml = new dataXML();
-				currentClassLogger.Debug("data.item новый=" + data.item);
+				DataXML xml = new DataXML();
 				xml.SetXML(data.orderElement);
 			} else {
 				data.OrderElementList[data.orderElement.inAction] = data.orderElement;
 				data.OrderElementListView[data.orderElement.inAction].sum = data.orderElement.getSum();
-				dataXML xml = new dataXML();
-				currentClassLogger.Debug("data.item редактирование=" + data.item);
-				xml.changeXML(data.orderElement.inAction);
+				DataXML xml = new DataXML();
+				xml.ChangeXML(data.orderElement.inAction);
 			}
 			data.orderGV.Refresh();
 			this.Close();

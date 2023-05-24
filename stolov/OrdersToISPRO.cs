@@ -268,9 +268,12 @@ namespace stolov {
 					currentClassLogger.Error("Ошибка итерации");
 					currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
 				}
-				data.elementRemove(index);
+				data.OrderElementListView.RemoveAt(0);
+				DataXML xml = new DataXML();
+				xml.DeleteXML(0);
 				index++;
 			}
+			data.OrderElementList.Clear();
 		}
 
 		public void prdzkgt(string date) {
