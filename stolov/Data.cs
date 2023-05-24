@@ -10,8 +10,7 @@ using System.Windows.Forms;
 namespace stolov {
 	internal class Data {
 		private static Data instance;
-
-		public int inAction;
+		public int idXML = 0;
 		//Пользователи
 		public DataTable users;
 		public DataGridView usersGV;
@@ -38,7 +37,6 @@ namespace stolov {
 		private Data() {
 			order = new DataTable();
 			prise = new DataTable();
-			inAction = 0;
 			item = -1;
 		}
 		public void dataOrderCaption() {
@@ -66,6 +64,13 @@ namespace stolov {
 			for (int i = 0; i < 7; i++) {
 				orderGV.Columns[i].ReadOnly = i != 5;
 			}
+		}
+
+		public void elementRemove(int row) {
+			OrderElementList.RemoveAt(row);
+			OrderElementListView.RemoveAt(row);
+			dataXML xml = new dataXML();
+			xml.deleteXML(row);
 		}
 	}
 }

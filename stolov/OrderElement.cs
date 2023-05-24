@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog.Web;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -6,6 +7,9 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.UI.WebControls;
+using NLog;
+using NLog.Filters;
+using NLog.Fluent;
 
 namespace stolov {
 	public class OrderElement {
@@ -13,15 +17,24 @@ namespace stolov {
 		public DataRow user;
 		public bool ret;
 		public int inAction;
+		public int id;
+		public static Logger currentClassLogger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
 		public double getSum() {
 			double sum = 0;
-			if(this.order == null) {
+			if (this.order == null) {
 				this.order = new DataTable();
 			}
 			if (this.order.Rows.Count > 0) {
 				DataRow[] result = this.order.Select();
 				foreach (DataRow row in result) {
-					sum += Convert.ToDouble(row[5]) * Convert.ToDouble(row[6]);
+					double sm = 0;
+					//Боремся с проклятой проблемой разделителей точка или запятая
+					try {
+						sm = Convert.ToDouble(row[5]) * Convert.ToDouble(row[6]);
+					} catch {
+						sm = Convert.ToDouble(row[5].ToString().Replace(".", ",")) * Convert.ToDouble(row[6].ToString().Replace(".", ","));
+					}
+					sum += sm;
 				}
 			}
 			return sum;
@@ -41,13 +54,16 @@ namespace stolov {
 			return sum;
 		}
 		public OrderElement(DataRow user) {
+			Data data = Data.getInstance();
 			this.user = user;
 			this.order = new DataTable();
 			this.inAction = -1;
 			this.ret = false;
+			this.id = data.idXML + 1;
+			//this.id = data.OrderElementList.Count + 1;
 		}
-		public OrderElement() {
-
+		public OrderElement(int id) {
+			this.id = id;
 		}
 		public OrderElement Copy() {
 			OrderElement newlist = new OrderElement(this.user);

@@ -1,0 +1,671 @@
+2023-05-24 10:25:34.5485|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:25:34.6117|DEBUG|stolov.Order|Табельный: 1126
+2023-05-24 10:25:34.6117|DEBUG|stolov.Order|ФИО: Трейго Юрий Викторович
+2023-05-24 10:25:57.9126|DEBUG|stolov.dataXML|+++4
+2023-05-24 10:25:59.5356|ERROR|stolov.dataXML|Ошибка изменения данных в XML
+2023-05-24 10:25:59.5476|ERROR|stolov.dataXML|Ошибка: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index; Source: mscorlib
+2023-05-24 10:26:10.4056|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:26:10.4056|DEBUG|stolov.Order|Табельный: 1126
+2023-05-24 10:26:10.4056|DEBUG|stolov.Order|ФИО: Трейго Юрий Викторович
+2023-05-24 10:28:31.1660|DEBUG|stolov.dataXML|+++4
+2023-05-24 10:28:48.5540|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:28:48.5540|DEBUG|stolov.Order|Табельный: 1126
+2023-05-24 10:28:48.5580|DEBUG|stolov.Order|ФИО: Трейго Юрий Викторович
+2023-05-24 10:38:32.6687|DEBUG|stolov.OrdersToISPRO|date=20230524
+2023-05-24 10:38:32.7767|DEBUG|stolov.OrdersToISPRO|zkg=5005043 sum=125.5
+2023-05-24 10:38:32.7767|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|0 Горчица столовая|Холодные блюда|порц.|1|2.000000|9813|64131|51
+2023-05-24 10:38:32.8531|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|0 Кетчуп 30г|Холодные блюда|порц.|1|6.000000|9503|63604|51
+2023-05-24 10:38:32.8821|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|0 Салат Витаминный с перцем|Холодные блюда|порц.|1|26.000000|9798|74076|51
+2023-05-24 10:38:32.9211|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|0 Салат грузинский|Холодные блюда|порц.|1|40.000000|829|74107|51
+2023-05-24 10:38:32.9582|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|0 Свекла с изюмом, сметаной|Холодные блюда|порц.|1|18.500000|838|74077|51
+2023-05-24 10:38:32.9882|DEBUG|stolov.OrdersToISPRO||4392|11170000000000001038|0 Сельдь "под шубой"|Холодные блюда|порц.|1|33.000000|822|74093|51
+2023-05-24 10:38:33.0257|DEBUG|stolov.OrdersToISPRO|date=20230524
+2023-05-24 10:38:33.0465|DEBUG|stolov.OrdersToISPRO|zkg=5005044 sum=316
+2023-05-24 10:38:33.0465|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|0 Горчица столовая|Холодные блюда|порц.|2|2.000000|9813|64131|51
+2023-05-24 10:38:33.0770|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|0 Кетчуп 30г|Холодные блюда|порц.|2|6.000000|9503|63604|51
+2023-05-24 10:38:33.1060|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|0 Салат Витаминный с перцем|Холодные блюда|порц.|2|26.000000|9798|74076|51
+2023-05-24 10:38:33.1400|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|0 Салат грузинский|Холодные блюда|порц.|2|40.000000|829|74107|51
+2023-05-24 10:38:33.1811|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|0 Свекла с изюмом, сметаной|Холодные блюда|порц.|2|18.500000|838|74077|51
+2023-05-24 10:38:33.2221|DEBUG|stolov.OrdersToISPRO||4392|11170000000000001038|0 Сельдь "под шубой"|Холодные блюда|порц.|2|33.000000|822|74093|51
+2023-05-24 10:38:33.2591|DEBUG|stolov.OrdersToISPRO||3654|11170000000000000313|1 Окрошка мясная|Первые блюда|порц.|2|32.500000|620|72806|51
+2023-05-24 10:38:33.2931|DEBUG|stolov.OrdersToISPRO|date=20230524
+2023-05-24 10:38:33.3214|DEBUG|stolov.OrdersToISPRO|zkg=5005045 sum=705
+2023-05-24 10:38:33.3214|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|0 Кетчуп 30г|Холодные блюда|порц.|3|6.000000|9503|63604|51
+2023-05-24 10:38:33.3539|DEBUG|stolov.OrdersToISPRO||13757|00000000000000005402|0 Салат Витаминный с перцем|Холодные блюда|порц.|3|26.000000|9798|74076|51
+2023-05-24 10:38:33.3833|DEBUG|stolov.OrdersToISPRO||4382|11170000000000001028|0 Салат грузинский|Холодные блюда|порц.|3|40.000000|829|74107|51
+2023-05-24 10:38:33.4479|DEBUG|stolov.OrdersToISPRO||4404|11170000000000001050|0 Свекла с изюмом, сметаной|Холодные блюда|порц.|3|18.500000|838|74077|51
+2023-05-24 10:38:33.4862|DEBUG|stolov.OrdersToISPRO||4392|11170000000000001038|0 Сельдь "под шубой"|Холодные блюда|порц.|3|33.000000|822|74093|51
+2023-05-24 10:38:33.5292|DEBUG|stolov.OrdersToISPRO||3654|11170000000000000313|1 Окрошка мясная|Первые блюда|порц.|3|32.500000|620|72806|51
+2023-05-24 10:38:33.5622|DEBUG|stolov.OrdersToISPRO||13560|00000000000000005214|1 Солянка домашняя со сметаной|Первые блюда|порц.|3|49.500000|9611|74094|51
+2023-05-24 10:38:33.5942|DEBUG|stolov.OrdersToISPRO||4311|11170000000000000959|1 Суп картофельный с шампиньонами|Первые блюда|порц.|3|29.500000|630|74078|51
+2023-05-24 10:38:35.0828|DEBUG|stolov.Ctolov|Данные выгружены
+2023-05-24 10:44:31.9597|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:44:32.0287|DEBUG|stolov.Order|Табельный: 1138
+2023-05-24 10:44:32.0287|DEBUG|stolov.Order|ФИО: Седых Сергей Владимирович
+2023-05-24 10:47:49.9735|DEBUG|stolov.dataXML|+++4
+2023-05-24 10:47:54.1211|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:47:54.1211|DEBUG|stolov.Order|Табельный: 1138
+2023-05-24 10:47:54.1211|DEBUG|stolov.Order|ФИО: Седых Сергей Владимирович
+2023-05-24 10:53:46.4960|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:53:46.6191|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 10:53:46.6191|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 10:54:09.4613|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:54:09.4613|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 10:54:09.4613|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 10:54:31.1981|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:54:31.1981|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 10:54:31.1981|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 10:54:59.6678|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:54:59.6678|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 10:54:59.6678|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 10:58:41.4485|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:58:41.5615|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 10:58:41.5615|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 10:59:15.6047|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:59:15.7477|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 10:59:15.7477|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 11:01:11.5708|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:01:11.6528|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 11:01:11.6528|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 11:01:30.9777|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:01:30.9777|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 11:01:30.9777|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 11:01:53.9795|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:01:53.9795|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 11:01:53.9795|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 11:02:37.6051|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:02:37.6051|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 11:02:37.6051|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 11:03:24.8294|DEBUG|stolov.dataXML|+++3
+2023-05-24 11:03:29.2337|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:03:29.2337|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 11:03:29.2337|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 11:04:05.2317|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:04:05.3087|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 11:04:05.3087|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 11:05:19.4715|DEBUG|stolov.dataXML|+++6
+2023-05-24 11:05:24.0967|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:05:24.0967|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 11:05:24.0967|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 11:13:49.2360|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:13:49.3340|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 11:13:49.3340|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 11:14:09.7261|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:14:09.7261|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 11:14:09.7261|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 11:14:33.4247|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:14:33.4247|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 11:14:33.4247|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 11:15:31.3273|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:15:31.3273|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 11:15:31.3273|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 11:16:02.8647|DEBUG|stolov.dataXML|+++2
+2023-05-24 11:16:07.1373|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:16:07.1373|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 11:16:07.1373|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 11:21:58.8096|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:21:58.8716|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 11:21:58.8716|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 11:22:20.4790|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:22:20.4820|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 11:22:20.4820|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 11:22:37.0213|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:22:37.0213|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 11:22:37.0213|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 11:23:07.8844|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:23:07.8844|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 11:23:07.8844|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 11:23:29.1998|DEBUG|stolov.dataXML|+++2
+2023-05-24 11:23:33.5038|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:23:33.5038|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 11:23:33.5038|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 11:24:20.0523|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:24:20.0523|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 11:24:20.0523|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 11:26:29.0818|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:26:29.1738|DEBUG|stolov.Order|Табельный: 1118
+2023-05-24 11:26:29.1738|DEBUG|stolov.Order|ФИО: Агафонов Владислав Захарович
+2023-05-24 11:55:49.3133|DEBUG|stolov.dataXML|Новый
+2023-05-24 11:55:56.2151|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:55:56.2151|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 11:55:56.2214|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 11:56:47.7081|DEBUG|stolov.dataXML|Новый
+2023-05-24 11:56:52.3902|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:56:52.4014|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 11:56:52.4014|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 11:57:15.0200|DEBUG|stolov.dataXML|Новый
+2023-05-24 11:57:19.7319|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:57:19.7319|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 11:57:19.7319|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 11:57:46.5870|DEBUG|stolov.dataXML|Новый
+2023-05-24 11:57:50.8263|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:57:50.8263|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 11:57:50.8263|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 11:58:06.0858|DEBUG|stolov.dataXML|+++2
+2023-05-24 11:58:06.0858|DEBUG|stolov.dataXML|Новый
+2023-05-24 11:58:10.2186|DEBUG|stolov.Order|Новый заказ
+2023-05-24 11:58:10.2186|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 11:58:10.2186|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:05:39.2024|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:05:39.2623|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:05:39.2623|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:05:43.8598|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:05:43.8647|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 12:05:43.8647|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 12:05:57.4555|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:05:57.4555|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:05:57.4555|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:06:01.4049|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:06:01.4049|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:06:01.4049|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:06:30.5777|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:06:30.5777|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:06:30.5808|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:06:34.8665|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:06:34.8665|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 12:06:34.8665|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 12:07:17.6108|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:07:17.6108|DEBUG|stolov.Order|data.item редактирование=-1
+2023-05-24 12:07:17.6138|DEBUG|stolov.dataXML|+++2
+2023-05-24 12:07:17.6138|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:07:22.1237|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:07:22.1237|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:07:22.1237|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:12:22.5943|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:12:22.6453|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:12:22.6610|DEBUG|stolov.dataXML|Редактирование
+2023-05-24 12:12:27.7357|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:12:27.7408|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 12:12:27.7408|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 12:12:40.1442|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:12:40.1442|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:12:40.1442|DEBUG|stolov.dataXML|Редактирование
+2023-05-24 12:12:44.2194|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:12:44.2194|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:12:44.2194|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:14:42.8266|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:14:42.8865|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:14:42.8865|DEBUG|stolov.dataXML|Редактирование__=0
+2023-05-24 12:14:47.7065|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:14:47.7065|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 12:14:47.7065|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 12:15:35.8874|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:15:35.8874|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:15:35.8874|DEBUG|stolov.dataXML|Редактирование__=1
+2023-05-24 12:15:40.1454|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:15:40.1454|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:15:40.1454|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:47:52.1696|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:47:52.2234|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:47:52.2234|DEBUG|stolov.dataXML|Редактирование__=0
+2023-05-24 12:47:56.3753|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:47:56.3805|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 12:47:56.3805|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 12:49:21.5547|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:49:21.5970|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:49:21.6126|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:49:25.7117|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:49:25.7117|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:49:25.7117|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:49:34.2987|DEBUG|stolov.Ctolov|data.item=1
+2023-05-24 12:49:40.7139|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:49:40.7139|DEBUG|stolov.Order|data.item редактирование=-1
+2023-05-24 12:49:40.7139|DEBUG|stolov.dataXML|+++2
+2023-05-24 12:49:40.7139|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:49:46.2951|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:49:46.2951|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:49:46.2951|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:51:14.0817|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:51:14.1256|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:51:14.1256|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:51:18.8398|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:51:18.8398|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 12:51:18.8398|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 12:51:31.6707|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 12:51:44.1052|DEBUG|stolov.Order|data.item=-1
+2023-05-24 12:51:44.1052|DEBUG|stolov.Order|data.item редактирование=-1
+2023-05-24 12:51:44.1052|DEBUG|stolov.dataXML|+++1
+2023-05-24 12:51:44.1052|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:51:47.7774|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:51:47.7774|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 12:51:47.7774|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 12:53:00.3945|DEBUG|stolov.Ctolov|data.item1=2
+2023-05-24 12:53:08.7708|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 12:53:08.7708|DEBUG|stolov.Order|data.item редактирование=-1
+2023-05-24 12:53:08.7708|DEBUG|stolov.dataXML|+++3
+2023-05-24 12:53:08.7708|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:53:14.1855|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:53:14.1906|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 12:53:14.1906|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 12:53:25.1806|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 12:53:29.3509|DEBUG|stolov.Ctolov|data.item1=1
+2023-05-24 12:53:35.4881|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 12:53:35.4881|DEBUG|stolov.Order|data.item редактирование=-1
+2023-05-24 12:53:35.4881|DEBUG|stolov.dataXML|+++2
+2023-05-24 12:53:35.4881|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:53:39.5074|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:53:39.5074|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:53:39.5074|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:53:50.6479|DEBUG|stolov.Ctolov|data.item1=2
+2023-05-24 12:53:57.7798|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 12:53:57.7798|DEBUG|stolov.Order|data.item редактирование=-1
+2023-05-24 12:53:57.7798|DEBUG|stolov.dataXML|+++3
+2023-05-24 12:53:57.7798|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:54:01.6678|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:54:01.6678|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 12:54:01.6678|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 12:55:23.5499|DEBUG|stolov.Ctolov|data.item1=1
+2023-05-24 12:55:34.5773|DEBUG|stolov.Order|data.item2=1
+2023-05-24 12:55:34.5773|DEBUG|stolov.Order|data.item редактирование=1
+2023-05-24 12:55:34.5813|DEBUG|stolov.dataXML|+++2
+2023-05-24 12:55:34.5813|DEBUG|stolov.dataXML|Редактирование__=1
+2023-05-24 12:55:38.7545|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:55:38.7545|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:55:38.7545|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:55:54.1109|DEBUG|stolov.Ctolov|data.item1=2
+2023-05-24 12:56:05.1205|DEBUG|stolov.Order|data.item2=2
+2023-05-24 12:56:05.1205|DEBUG|stolov.Order|data.item редактирование=2
+2023-05-24 12:56:05.1205|DEBUG|stolov.dataXML|+++3
+2023-05-24 12:56:05.1205|DEBUG|stolov.dataXML|Редактирование__=2
+2023-05-24 12:56:09.0245|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:56:09.0245|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 12:56:09.0245|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 12:58:10.2104|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 12:58:10.2634|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:58:10.2634|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:58:14.6604|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:58:14.6604|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 12:58:14.6604|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 12:58:44.8039|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 12:58:44.8039|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:58:44.8039|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:58:49.5017|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:58:49.5017|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:58:49.5017|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:59:00.2824|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 12:59:00.2824|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:59:00.2824|DEBUG|stolov.dataXML|Новый
+2023-05-24 12:59:04.2271|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:59:04.2271|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 12:59:04.2271|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 12:59:11.8006|DEBUG|stolov.Ctolov|data.item1=1
+2023-05-24 12:59:29.4884|DEBUG|stolov.Order|data.item2=1
+2023-05-24 12:59:29.4884|DEBUG|stolov.Order|data.item редактирование=1
+2023-05-24 12:59:29.4884|DEBUG|stolov.dataXML|+++2
+2023-05-24 12:59:29.4884|DEBUG|stolov.dataXML|Редактирование=1
+2023-05-24 12:59:34.6698|DEBUG|stolov.Order|Новый заказ
+2023-05-24 12:59:34.6698|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 12:59:34.6698|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 12:59:56.2645|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 12:59:56.2645|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 12:59:56.2645|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:00:01.1791|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:00:01.1791|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 13:00:01.1791|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 13:00:37.2531|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:00:37.2531|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:00:37.2531|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:00:41.6822|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:00:41.6822|DEBUG|stolov.Order|Табельный: 1075
+2023-05-24 13:00:41.6822|DEBUG|stolov.Order|ФИО: Ситников Сергей Петрович
+2023-05-24 13:00:50.4003|DEBUG|stolov.Ctolov|data.item1=3
+2023-05-24 13:00:56.9418|DEBUG|stolov.Order|data.item2=3
+2023-05-24 13:00:56.9418|DEBUG|stolov.Order|data.item редактирование=3
+2023-05-24 13:00:56.9418|DEBUG|stolov.dataXML|+++4
+2023-05-24 13:00:56.9418|DEBUG|stolov.dataXML|Редактирование=3
+2023-05-24 13:01:01.0263|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:01:01.0263|DEBUG|stolov.Order|Табельный: 1075
+2023-05-24 13:01:01.0263|DEBUG|stolov.Order|ФИО: Ситников Сергей Петрович
+2023-05-24 13:01:23.7788|DEBUG|stolov.Ctolov|data.item1=3
+2023-05-24 13:10:15.2269|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:10:15.2764|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:10:15.3233|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:10:19.3598|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:10:19.3627|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 13:10:19.3627|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 13:10:32.5032|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:10:32.5032|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:10:32.5032|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:10:36.4854|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:10:36.4854|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 13:10:36.4854|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 13:10:57.6401|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:10:57.6401|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:10:57.6401|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:11:01.4012|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:11:01.4012|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 13:11:01.4012|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 13:11:05.4711|DEBUG|stolov.Ctolov|data.item1=1
+2023-05-24 13:11:14.5062|DEBUG|stolov.Order|data.item2=1
+2023-05-24 13:11:14.5062|DEBUG|stolov.Order|data.item редактирование=1
+2023-05-24 13:12:30.7339|DEBUG|stolov.dataXML|+++2
+2023-05-24 13:12:30.7339|DEBUG|stolov.dataXML|Редактирование=1
+2023-05-24 13:12:35.2460|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:12:35.2460|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 13:12:35.2460|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 13:13:07.3337|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:13:07.3337|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:13:07.3337|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:13:11.5557|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:13:11.5557|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 13:13:11.5557|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 13:13:44.8248|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:13:44.8404|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:13:44.8404|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:13:49.8360|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:13:49.8360|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 13:13:49.8360|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 13:14:16.0033|DEBUG|stolov.Ctolov|data.item1=2
+2023-05-24 13:14:23.6000|DEBUG|stolov.Order|data.item2=2
+2023-05-24 13:14:23.6000|DEBUG|stolov.Order|data.item редактирование=2
+2023-05-24 13:15:19.0592|DEBUG|stolov.dataXML|+++4
+2023-05-24 13:15:34.3487|DEBUG|stolov.dataXML|Редактирование=2
+2023-05-24 13:16:15.8993|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:16:15.8993|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 13:16:15.8993|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 13:17:28.4079|DEBUG|stolov.Ctolov|data.item1=3
+2023-05-24 13:17:34.8060|DEBUG|stolov.Order|data.item2=3
+2023-05-24 13:17:34.8060|DEBUG|stolov.Order|data.item редактирование=3
+2023-05-24 13:17:42.7003|DEBUG|stolov.dataXML|+++5
+2023-05-24 13:17:48.1984|DEBUG|stolov.dataXML|Редактирование=3
+2023-05-24 13:18:22.6915|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:18:22.6915|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 13:18:22.6915|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 13:18:32.2877|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 13:18:38.8766|DEBUG|stolov.Order|data.item2=0
+2023-05-24 13:18:38.8766|DEBUG|stolov.Order|data.item редактирование=0
+2023-05-24 13:18:43.6591|DEBUG|stolov.dataXML|+++1
+2023-05-24 13:18:44.8828|DEBUG|stolov.dataXML|Редактирование=0
+2023-05-24 13:18:55.8536|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:18:55.8536|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 13:18:55.8536|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 13:20:06.3431|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:20:06.4101|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:20:06.4101|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:20:11.1855|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:20:11.1927|DEBUG|stolov.Order|Табельный: 1075
+2023-05-24 13:20:11.2223|DEBUG|stolov.Order|ФИО: Ситников Сергей Петрович
+2023-05-24 13:20:18.3430|DEBUG|stolov.Ctolov|data.item1=4
+2023-05-24 13:20:28.1678|DEBUG|stolov.Order|data.item2=4
+2023-05-24 13:20:28.1678|DEBUG|stolov.Order|data.item редактирование=4
+2023-05-24 13:20:31.0690|DEBUG|stolov.dataXML|+++5
+2023-05-24 13:20:47.7870|DEBUG|stolov.dataXML|Редактирование=4
+2023-05-24 13:22:06.6959|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:22:06.6959|DEBUG|stolov.Order|Табельный: 1075
+2023-05-24 13:22:06.6959|DEBUG|stolov.Order|ФИО: Ситников Сергей Петрович
+2023-05-24 13:23:48.9383|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:23:49.0125|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:23:49.0466|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:23:53.6634|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:23:53.6634|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 13:23:53.6824|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 13:24:02.9246|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:24:02.9246|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:24:02.9246|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:24:06.9283|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:24:06.9283|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 13:24:06.9283|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 13:24:23.7357|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:24:23.7357|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:24:23.7377|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:24:27.8566|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:24:27.8566|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 13:24:27.8566|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 13:24:46.5983|DEBUG|stolov.Ctolov|data.item1=1
+2023-05-24 13:24:57.2602|DEBUG|stolov.Order|data.item2=1
+2023-05-24 13:24:57.2602|DEBUG|stolov.Order|data.item редактирование=1
+2023-05-24 13:24:59.5120|DEBUG|stolov.dataXML|+++2
+2023-05-24 13:24:59.5120|DEBUG|stolov.dataXML|Редактирование=1
+2023-05-24 13:25:03.7083|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:25:03.7083|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 13:25:03.7083|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 13:25:25.4025|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:25:25.4025|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:25:25.4025|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:25:29.4958|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:25:29.4958|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 13:25:29.4958|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 13:27:22.3568|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:27:22.4193|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:27:22.4193|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:27:26.5359|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:27:26.5359|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 13:27:26.5359|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 13:27:53.6391|DEBUG|stolov.Ctolov|data.item1=3
+2023-05-24 13:28:01.4921|DEBUG|stolov.Order|data.item2=3
+2023-05-24 13:28:01.4921|DEBUG|stolov.Order|data.item редактирование=3
+2023-05-24 13:28:05.4069|DEBUG|stolov.dataXML|+++4
+2023-05-24 13:28:11.1278|DEBUG|stolov.dataXML|Редактирование=3
+2023-05-24 13:35:43.6067|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:35:43.6067|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 13:35:43.6067|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 13:36:52.5361|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:36:52.5938|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:36:52.6258|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:36:57.0082|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:36:57.0082|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 13:36:57.0082|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 13:37:10.8376|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:37:10.8376|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:37:10.8376|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:37:14.7925|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:37:14.7925|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 13:37:14.7925|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 13:37:34.9103|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:37:34.9103|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:37:34.9103|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:37:39.4701|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:37:39.4701|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 13:37:39.4701|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 13:37:53.2035|DEBUG|stolov.Ctolov|data.item1=1
+2023-05-24 13:37:59.9902|DEBUG|stolov.Order|data.item2=1
+2023-05-24 13:37:59.9902|DEBUG|stolov.Order|data.item редактирование=1
+2023-05-24 13:38:02.1684|DEBUG|stolov.dataXML|+++2
+2023-05-24 13:38:02.1684|DEBUG|stolov.dataXML|Редактирование=1
+2023-05-24 13:38:06.1080|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:38:06.1080|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 13:38:06.1080|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 13:38:30.6464|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:38:30.6464|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:38:30.6464|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:38:35.5726|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:38:35.5726|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 13:38:35.5726|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 13:39:12.1549|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:39:12.1549|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:39:12.1549|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:39:16.4065|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:39:16.4065|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 13:39:16.4065|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 13:39:28.0200|DEBUG|stolov.Ctolov|data.item1=3
+2023-05-24 13:39:44.4259|DEBUG|stolov.Order|data.item2=3
+2023-05-24 13:39:44.4259|DEBUG|stolov.Order|data.item редактирование=3
+2023-05-24 13:39:46.8813|DEBUG|stolov.dataXML|+++5
+2023-05-24 13:39:46.8813|DEBUG|stolov.dataXML|Редактирование=3
+2023-05-24 13:39:51.0087|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:39:51.0087|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 13:39:51.0087|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 13:42:36.2361|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:42:36.2981|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:42:36.2981|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:42:40.9469|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:42:40.9469|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 13:42:40.9469|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 13:42:54.9955|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:42:54.9955|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:42:54.9955|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:42:58.8356|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:42:58.8356|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 13:42:58.8356|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 13:43:38.3683|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:43:38.4263|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:43:38.4580|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:43:43.4443|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:43:43.4443|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 13:43:43.4443|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 13:44:15.2383|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:44:15.2383|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:44:15.2383|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:44:19.3780|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:44:19.3780|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 13:44:19.3780|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 13:44:43.0259|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:44:43.0259|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:44:43.0259|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:44:47.3111|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:44:47.3111|DEBUG|stolov.Order|Табельный: 1045
+2023-05-24 13:44:47.3111|DEBUG|stolov.Order|ФИО: Синицкая Наталья Александровна
+2023-05-24 13:44:55.5427|DEBUG|stolov.Ctolov|data.item1=1
+2023-05-24 13:45:11.2215|DEBUG|stolov.Order|data.item2=1
+2023-05-24 13:45:11.2215|DEBUG|stolov.Order|data.item редактирование=1
+2023-05-24 13:45:14.9771|DEBUG|stolov.dataXML|+++2
+2023-05-24 13:45:14.9771|DEBUG|stolov.dataXML|Редактирование=1
+2023-05-24 13:45:19.1579|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:45:19.1579|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 13:45:19.1579|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 13:45:55.1384|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:45:55.1384|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:45:55.1384|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:45:59.3886|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:45:59.3886|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 13:45:59.3886|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 13:47:10.4421|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:47:10.4421|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:47:10.4421|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:47:14.5207|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:47:14.5207|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 13:47:14.5207|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 13:48:03.5874|DEBUG|stolov.Ctolov|data.item1=3
+2023-05-24 13:48:14.4858|DEBUG|stolov.Order|data.item2=3
+2023-05-24 13:48:14.4858|DEBUG|stolov.Order|data.item редактирование=3
+2023-05-24 13:48:35.4563|DEBUG|stolov.dataXML|+++5
+2023-05-24 13:48:39.1779|DEBUG|stolov.dataXML|Редактирование=3
+2023-05-24 13:49:13.5072|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:49:13.5072|DEBUG|stolov.Order|Табельный: 1065
+2023-05-24 13:49:13.5072|DEBUG|stolov.Order|ФИО: Лукашенко Сергей Александрович
+2023-05-24 13:49:48.0248|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:49:48.0561|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:49:48.0561|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:49:52.4349|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:49:52.4349|DEBUG|stolov.Order|Табельный: 1075
+2023-05-24 13:49:52.4349|DEBUG|stolov.Order|ФИО: Ситников Сергей Петрович
+2023-05-24 13:50:16.7890|DEBUG|stolov.Ctolov|data.item1=4
+2023-05-24 13:50:24.2660|DEBUG|stolov.Order|data.item2=4
+2023-05-24 13:50:24.2709|DEBUG|stolov.Order|data.item редактирование=4
+2023-05-24 13:50:29.0257|DEBUG|stolov.dataXML|+++6
+2023-05-24 13:50:35.7446|DEBUG|stolov.dataXML|Редактирование=4
+2023-05-24 13:51:01.2800|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:51:01.2800|DEBUG|stolov.Order|Табельный: 1075
+2023-05-24 13:51:01.2800|DEBUG|stolov.Order|ФИО: Ситников Сергей Петрович
+2023-05-24 13:51:21.1249|DEBUG|stolov.Ctolov|data.item1=2
+2023-05-24 13:51:29.3720|DEBUG|stolov.Order|data.item2=2
+2023-05-24 13:51:29.3720|DEBUG|stolov.Order|data.item редактирование=2
+2023-05-24 13:51:34.3372|DEBUG|stolov.dataXML|+++4
+2023-05-24 13:51:39.7172|DEBUG|stolov.dataXML|Редактирование=2
+2023-05-24 13:52:06.2982|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:52:06.2982|DEBUG|stolov.Order|Табельный: 1048
+2023-05-24 13:52:06.2982|DEBUG|stolov.Order|ФИО: Трипольская Ирина Викторовна
+2023-05-24 13:52:13.2190|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 13:52:26.5504|DEBUG|stolov.Order|data.item2=0
+2023-05-24 13:52:26.5504|DEBUG|stolov.Order|data.item редактирование=0
+2023-05-24 13:52:28.7823|DEBUG|stolov.dataXML|+++1
+2023-05-24 13:52:28.7823|DEBUG|stolov.dataXML|Редактирование=0
+2023-05-24 13:52:33.2192|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:52:33.2192|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 13:52:33.2192|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 13:53:27.3509|DEBUG|stolov.OrdersToISPRO|date=20230524
+2023-05-24 13:53:27.3902|DEBUG|stolov.OrdersToISPRO|zkg=5005048 sum=88
+2023-05-24 13:53:27.3902|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|0 Горчица столовая|Холодные блюда|порц.|11|2.000000|9813|64131|51
+2023-05-24 13:53:27.4215|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|0 Кетчуп 30г|Холодные блюда|порц.|11|6.000000|9503|63604|51
+2023-05-24 13:56:21.0278|ERROR|stolov.dataXML|Ошибка копирования файла данных XML
+2023-05-24 13:56:21.0858|ERROR|stolov.dataXML|Ошибка: Файл "orders_old.xml" уже существует.; Source: mscorlib
+2023-05-24 13:56:21.1908|DEBUG|stolov.OrdersToISPRO|date=20230524
+2023-05-24 13:56:21.2144|DEBUG|stolov.OrdersToISPRO|zkg=5005049 sum=168
+2023-05-24 13:56:21.2144|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|0 Горчица столовая|Холодные блюда|порц.|21|2.000000|9813|64131|51
+2023-05-24 13:56:21.2444|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|0 Кетчуп 30г|Холодные блюда|порц.|21|6.000000|9503|63604|51
+2023-05-24 13:57:55.7305|ERROR|stolov.dataXML|Ошибка копирования файла данных XML
+2023-05-24 13:57:55.7945|ERROR|stolov.dataXML|Ошибка: Файл "orders_old.xml" уже существует.; Source: mscorlib
+2023-05-24 13:57:55.8863|DEBUG|stolov.OrdersToISPRO|date=20230524
+2023-05-24 13:57:55.9075|DEBUG|stolov.OrdersToISPRO|zkg=5005050 sum=328
+2023-05-24 13:57:55.9095|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|0 Горчица столовая|Холодные блюда|порц.|41|2.000000|9813|64131|51
+2023-05-24 13:57:55.9375|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|0 Кетчуп 30г|Холодные блюда|порц.|41|6.000000|9503|63604|51
+2023-05-24 13:57:55.9692|DEBUG|stolov.OrdersToISPRO|date=20230524
+2023-05-24 13:57:55.9882|DEBUG|stolov.OrdersToISPRO|zkg=5005051 sum=408
+2023-05-24 13:57:55.9882|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|0 Горчица столовая|Холодные блюда|порц.|51|2.000000|9813|64131|51
+2023-05-24 13:57:56.0175|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|0 Кетчуп 30г|Холодные блюда|порц.|51|6.000000|9503|63604|51
+2023-05-24 13:57:56.0471|DEBUG|stolov.OrdersToISPRO|date=20230524
+2023-05-24 13:57:56.0671|DEBUG|stolov.OrdersToISPRO|zkg=5005052 sum=488
+2023-05-24 13:57:56.0671|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|0 Горчица столовая|Холодные блюда|порц.|61|2.000000|9813|64131|51
+2023-05-24 13:57:56.0964|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|0 Кетчуп 30г|Холодные блюда|порц.|61|6.000000|9503|63604|51
+2023-05-24 13:58:33.4275|ERROR|stolov.dataXML|Ошибка копирования файла данных XML
+2023-05-24 13:58:33.4865|ERROR|stolov.dataXML|Ошибка: Файл "orders_old.xml" уже существует.; Source: mscorlib
+2023-05-24 13:58:33.5683|DEBUG|stolov.OrdersToISPRO|date=20230524
+2023-05-24 13:58:33.5910|DEBUG|stolov.OrdersToISPRO|zkg=5005053 sum=408
+2023-05-24 13:58:33.5910|DEBUG|stolov.OrdersToISPRO||13773|00000000000000005417|0 Горчица столовая|Холодные блюда|порц.|51|2.000000|9813|64131|51
+2023-05-24 13:58:33.6211|DEBUG|stolov.OrdersToISPRO||13448|00000000000000005118|0 Кетчуп 30г|Холодные блюда|порц.|51|6.000000|9503|63604|51
+2023-05-24 13:58:34.7538|DEBUG|stolov.Ctolov|Данные выгружены
+2023-05-24 13:58:49.3608|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:58:49.4118|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:58:49.4118|DEBUG|stolov.dataXML|Новый
+2023-05-24 13:58:55.3894|DEBUG|stolov.Order|Новый заказ
+2023-05-24 13:58:55.3954|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 13:58:55.3954|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 13:58:57.4998|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 13:59:56.1278|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 13:59:56.1848|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 13:59:56.1848|DEBUG|stolov.dataXML|Новый
+2023-05-24 14:00:01.9058|DEBUG|stolov.Order|Новый заказ
+2023-05-24 14:00:01.9058|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 14:00:01.9058|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 14:00:05.6132|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 14:01:29.2717|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 14:01:29.3317|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 14:01:29.3637|DEBUG|stolov.dataXML|Новый
+2023-05-24 14:01:34.5907|DEBUG|stolov.Order|Новый заказ
+2023-05-24 14:01:34.5907|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 14:01:34.5907|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 14:01:40.7497|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 14:04:54.6756|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 14:04:55.9115|DEBUG|stolov.Order|data.item2=0
+2023-05-24 14:04:55.9115|DEBUG|stolov.Order|data.item редактирование=0
+2023-05-24 14:04:55.9115|DEBUG|stolov.dataXML|+++1
+2023-05-24 14:04:55.9115|DEBUG|stolov.dataXML|Редактирование=0
+2023-05-24 14:04:58.0696|DEBUG|stolov.Order|Новый заказ
+2023-05-24 14:04:58.0696|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 14:04:58.0696|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 14:04:59.7466|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 14:05:06.1909|DEBUG|stolov.Order|data.item2=0
+2023-05-24 14:05:06.1909|DEBUG|stolov.Order|data.item редактирование=0
+2023-05-24 14:05:06.1909|DEBUG|stolov.dataXML|+++1
+2023-05-24 14:05:06.1909|DEBUG|stolov.dataXML|Редактирование=0
+2023-05-24 14:05:10.4726|DEBUG|stolov.Order|Новый заказ
+2023-05-24 14:05:10.4726|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 14:05:10.4726|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 14:05:35.9022|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 14:05:35.9022|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 14:05:35.9022|DEBUG|stolov.dataXML|Новый
+2023-05-24 14:05:39.5881|DEBUG|stolov.Order|Новый заказ
+2023-05-24 14:05:39.5881|DEBUG|stolov.Order|Табельный: 1042
+2023-05-24 14:05:39.5881|DEBUG|stolov.Order|ФИО: Садыкова Венера Рафагатовна
+2023-05-24 14:14:51.0403|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 14:14:51.1013|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 14:14:51.1343|DEBUG|stolov.dataXML|Новый
+2023-05-24 14:14:56.3383|DEBUG|stolov.Order|Новый заказ
+2023-05-24 14:14:56.3383|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 14:14:56.3383|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 14:15:04.5645|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 14:17:09.9032|DEBUG|stolov.Order|data.item2=-1
+2023-05-24 14:17:09.9583|DEBUG|stolov.Order|data.item новый=-1
+2023-05-24 14:17:09.9923|DEBUG|stolov.dataXML|Новый
+2023-05-24 14:17:14.8540|DEBUG|stolov.Order|Новый заказ
+2023-05-24 14:17:14.8540|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 14:17:14.8540|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 14:17:19.8272|DEBUG|stolov.Ctolov|data.item1=0
+2023-05-24 14:17:30.2702|DEBUG|stolov.Order|data.item2=0
+2023-05-24 14:17:30.2702|DEBUG|stolov.Order|data.item редактирование=0
+2023-05-24 14:17:31.9752|DEBUG|stolov.dataXML|+++1
+2023-05-24 14:17:31.9752|DEBUG|stolov.dataXML|Редактирование=0
+2023-05-24 14:17:36.3382|DEBUG|stolov.Order|Новый заказ
+2023-05-24 14:17:36.3382|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 14:17:36.3382|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна

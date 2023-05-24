@@ -32,6 +32,7 @@ namespace stolov {
 			try { 
 				QueryManager.ExecuteQuery(verification); 
 			} catch (Exception excp) {
+				MessageBox.Show("Ошибка генератора Rcd");
 				currentClassLogger.Error("Ошибка генератора Rcd: " + excp.Message + "; Source: " + excp.Source); return "-1"; 
 			}
 			object temp = QueryManager.GetResultObject();
@@ -42,11 +43,13 @@ namespace stolov {
 			string date = DateTime.Today.ToString("yyyyMMdd");
 			string sql = "SELECT ISNULL(MAX(PrdZkg_RcdNmr),0)  FROM PRDZKG WHERE PrdZkg_RcdNmr < 9999999 and (PRDZKG_Dt = CONVERT(date, '" + date + "') ) ";
 			try {
+				DB.getInstance();
 				DataTable dt = DB.Query(sql);
 				DataRow[] result = dt.Select();
 				int res = Convert.ToInt32(result[0][0]) + 1;
 				return res.ToString();
 			} catch (Exception e) {
+				MessageBox.Show("Ошибка получения RcdNmr");
 				currentClassLogger.Error(sql);
 				currentClassLogger.Error("Ошибка получения RcdNmr");
 				currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
@@ -87,6 +90,7 @@ namespace stolov {
 				//SqlDataReader dr = command.ExecuteReader();
 				QueryManager.ExecuteNonQuery(sql);
 			} catch (Exception e) {
+				MessageBox.Show("Ошибка вставки в таблицу PrdZkg");
 				currentClassLogger.Error(sql);
 				currentClassLogger.Error("Ошибка вставки в таблицу PrdZkg");
 				currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
@@ -97,6 +101,7 @@ namespace stolov {
 					//SqlDataReader dr = command.ExecuteReader();
 					QueryManager.ExecuteNonQuery(sql);
 				} catch (Exception e) {
+					MessageBox.Show("Ошибка вставки в таблицу UFPRV");
 					currentClassLogger.Error(sql);
 					currentClassLogger.Error("Ошибка вставки в таблицу UFPRV");
 					currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
@@ -109,6 +114,7 @@ namespace stolov {
 				//SqlDataReader dr = command.ExecuteReader();
 				QueryManager.ExecuteNonQuery(sql);
 			} catch (Exception e) {
+				MessageBox.Show("Ошибка вставки в таблицу UFPRV");
 				currentClassLogger.Error(sql);
 				currentClassLogger.Error("Ошибка вставки в таблицу UFPRV");
 				currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
@@ -131,6 +137,7 @@ namespace stolov {
 				//SqlDataReader dr = command.ExecuteReader();
 				QueryManager.ExecuteNonQuery(sql);
 			} catch (Exception e) {
+				MessageBox.Show("Ошибка вставки в таблицу TRDS");
 				currentClassLogger.Error(sql);
 				currentClassLogger.Error("Ошибка вставки в таблицу TRDS");
 				currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
@@ -163,6 +170,7 @@ namespace stolov {
 				//SqlDataReader dr = command.ExecuteReader();
 				QueryManager.ExecuteNonQuery(sql);
 			} catch (Exception e) {
+				MessageBox.Show("Ошибка вставки в таблицу ATrdsTax");
 				currentClassLogger.Error(sql);
 				currentClassLogger.Error("Ошибка вставки в таблицу ATrdsTax");
 				currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
@@ -208,6 +216,7 @@ namespace stolov {
 					}
 				}
 			} catch (Exception e) {
+				MessageBox.Show("Ошибка записи первого файла");
 				currentClassLogger.Error("Ошибка записи первого файла");
 				currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
 			}
@@ -227,6 +236,7 @@ namespace stolov {
 					}
 				}
 			} catch (Exception e) {
+				MessageBox.Show("Ошибка записи второго файла");
 				currentClassLogger.Error("Ошибка записи второго файла");
 				currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
 			}
@@ -235,8 +245,8 @@ namespace stolov {
 			Data data = Data.getInstance();
 			DateTime today = DateTime.Today;
 			prdzkgt(today.ToString("yyyyMMdd"));
-
-			foreach (OrderElement item in data.OrderElementList) {
+			int index = 0;
+			foreach (OrderElement item in data.OrderElementList.ToArray()) {
 				try {
 					string PrdZkg_Rcd = Reserved_Rcd("PrdZkg", "PrdZkg_Rcd");//резервируем rcd в таблице PrdZkg
 					string RcdNmr = getRcdNmr();
@@ -254,15 +264,19 @@ namespace stolov {
 					}
 					generateFile(RcdNmr, item);
 				} catch (Exception e) {
+					MessageBox.Show("Ошибка итерации");
 					currentClassLogger.Error("Ошибка итерации");
 					currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
 				}
+				data.elementRemove(index);
+				index++;
 			}
 		}
 
 		public void prdzkgt(string date) {
 			string sql = "select count(*) from PRDZKDT where PrdZkDt_JrRcd='75' and PrdZkDt_Dt='" + date + "' ";
 			try {
+				DB.getInstance();
 				DataTable dt = DB.Query(sql);
 				DataRow[] result = dt.Select();
 				if (Convert.ToInt32(result[0][0]) == 0) {
@@ -270,6 +284,7 @@ namespace stolov {
 					DB.Query(sql);
 				}
 			} catch (Exception e) {
+				MessageBox.Show("Ошибка работы с таблицей PRDZKDT");
 				currentClassLogger.Error(sql);
 				currentClassLogger.Error("Ошибка работы с таблицей PRDZKDT");
 				currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);

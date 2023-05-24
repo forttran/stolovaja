@@ -41,6 +41,9 @@
 			this.textBox1 = new System.Windows.Forms.TextBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
+			this.panel9 = new System.Windows.Forms.Panel();
+			this.textBox8 = new System.Windows.Forms.TextBox();
+			this.label8 = new System.Windows.Forms.Label();
 			this.panel8 = new System.Windows.Forms.Panel();
 			this.button4 = new System.Windows.Forms.Button();
 			this.textBox7 = new System.Windows.Forms.TextBox();
@@ -62,6 +65,7 @@
 			this.panel3.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.tabPage2.SuspendLayout();
+			this.panel9.SuspendLayout();
 			this.panel8.SuspendLayout();
 			this.panel7.SuspendLayout();
 			this.tabPage3.SuspendLayout();
@@ -252,6 +256,7 @@
 			// tabPage2
 			// 
 			this.tabPage2.BackColor = System.Drawing.Color.White;
+			this.tabPage2.Controls.Add(this.panel9);
 			this.tabPage2.Controls.Add(this.panel8);
 			this.tabPage2.Controls.Add(this.panel7);
 			this.tabPage2.Location = new System.Drawing.Point(144, 4);
@@ -260,6 +265,34 @@
 			this.tabPage2.Size = new System.Drawing.Size(433, 150);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "Пути к файлам";
+			// 
+			// panel9
+			// 
+			this.panel9.Controls.Add(this.textBox8);
+			this.panel9.Controls.Add(this.label8);
+			this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+			this.panel9.Location = new System.Drawing.Point(3, 63);
+			this.panel9.Name = "panel9";
+			this.panel9.Size = new System.Drawing.Size(427, 30);
+			this.panel9.TabIndex = 2;
+			// 
+			// textBox8
+			// 
+			this.textBox8.Dock = System.Windows.Forms.DockStyle.Left;
+			this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+			this.textBox8.Location = new System.Drawing.Point(197, 0);
+			this.textBox8.Name = "textBox8";
+			this.textBox8.Size = new System.Drawing.Size(200, 22);
+			this.textBox8.TabIndex = 1;
+			// 
+			// label8
+			// 
+			this.label8.Dock = System.Windows.Forms.DockStyle.Left;
+			this.label8.Location = new System.Drawing.Point(0, 0);
+			this.label8.Name = "label8";
+			this.label8.Size = new System.Drawing.Size(197, 30);
+			this.label8.TabIndex = 0;
+			this.label8.Text = "Размер шрифта для печати";
 			// 
 			// panel8
 			// 
@@ -414,6 +447,8 @@
 			this.panel2.ResumeLayout(false);
 			this.panel2.PerformLayout();
 			this.tabPage2.ResumeLayout(false);
+			this.panel9.ResumeLayout(false);
+			this.panel9.PerformLayout();
 			this.panel8.ResumeLayout(false);
 			this.panel8.PerformLayout();
 			this.panel7.ResumeLayout(false);
@@ -457,5 +492,8 @@
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Button button3;
 		private System.Windows.Forms.ListBox listPrinters;
+		private System.Windows.Forms.Panel panel9;
+		private System.Windows.Forms.TextBox textBox8;
+		private System.Windows.Forms.Label label8;
 	}
 }

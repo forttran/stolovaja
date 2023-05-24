@@ -63,18 +63,21 @@ namespace stolov {
 			if (printDialog.ShowDialog() == DialogResult.OK)
 				printDialog.Document.Print(); // печатаем
 			*/
-
-			PrintDocument pd = new PrintDocument();
-			pd.PrintPage += new PrintPageEventHandler(PrintPageHandler);
-			pd.PrinterSettings.PrinterName = Settings.Default.Prints;
-			pd.PrinterSettings.PrintFileName = @"C:\1.pdf";
-			pd.DocumentName = "Чек столовой №" + this.num.ToString();
-			pd.Print();
+			try {
+				PrintDocument pd = new PrintDocument();
+				pd.PrintPage += new PrintPageEventHandler(PrintPageHandler);
+				pd.PrinterSettings.PrinterName = Settings.Default.Prints;
+				pd.PrinterSettings.PrintFileName = @"C:\1.pdf";
+				pd.DocumentName = "Чек столовой №" + this.num.ToString();
+				pd.Print();
+			} catch(Exception ex) {
+				MessageBox.Show("Зайдите в настройки и выберете принтер на котором будут печататься чеки");
+			}
 
 		}
 		public void PrintPageHandler(object sender, PrintPageEventArgs e) {
 			// печать строки result
-			e.Graphics.DrawString(getStringPrint(), new Font("Lucida Console", 6.1F), Brushes.Black, 0, 0);
+			e.Graphics.DrawString(getStringPrint(), new Font("Lucida Console", Settings.Default.sizePrint, FontStyle.Bold), Brushes.Black, 0, 0);
 		}
 		public string ToCenter(string str) {
 			int widthСheck = 54;

@@ -20,7 +20,7 @@ using System.Xml.Serialization;
 namespace stolov {
     public partial class Ctolov : Form {
 		public static Logger currentClassLogger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
-		public Users user;
+		public Users user = new Users();
 		public Order order;
 		public Ctolov() {
             InitializeComponent();
@@ -36,8 +36,10 @@ namespace stolov {
 		}
 
 		private void toolStripMenuItem8_Click(object sender, EventArgs e) {
+
 			user = new Users();
-			user.Show();
+			user.ShowDialog();
+			//user.Show();
 		}
 
 		private void Ctolov_Load(object sender, EventArgs e) {
@@ -52,6 +54,8 @@ namespace stolov {
 			this.listOrderElements.Columns[2].Width = 270;
 			this.listOrderElements.Columns[3].HeaderText = "Сумма";
 			this.listOrderElements.Columns[3].Width = 130;
+			dataXML xml = new dataXML();
+			xml.GetXML();
 		}
 
 		private void toolStripButton5_Click(object sender, EventArgs e) {
@@ -79,6 +83,8 @@ namespace stolov {
 		private void DownloadIsPRO_Click(object sender, EventArgs e) {
 			Data data = Data.getInstance();
 			if (data.OrderElementList.Count > 0) {
+				dataXML xml = new dataXML();
+				xml.cloneXML();
 				OrdersToISPRO OrdersToISPRO = new OrdersToISPRO();
 				OrdersToISPRO.TMPtoPrdZkg();
 				MessageBox.Show("Данные выгружены");
@@ -106,6 +112,7 @@ namespace stolov {
 				if (hit.RowIndex >= 0) {
 					listOrderElements.ClearSelection();
 					listOrderElements.Rows[hit.RowIndex].Selected = true;
+					listOrderElements.CurrentCell = listOrderElements.Rows[hit.RowIndex].Cells[0]; 
 				}
 			}
 		}
@@ -114,8 +121,8 @@ namespace stolov {
 			if (listOrderElements.Rows.Count > 0) {
 				int row = listOrderElements.CurrentCell.RowIndex;
 				Data data = Data.getInstance();
-
 				order = new Order();
+				data.OrderElementList[row].inAction = row;
 				data.orderElement = data.OrderElementList[row];
 				data.order = data.orderElement.order.Copy();
 				if (data.orderElement.user == null) {
@@ -126,7 +133,10 @@ namespace stolov {
 				data.orderGV = order.dataGridOrder;
 				data.orderGV.DataSource = data.orderElement.order;
 				data.item = row;
-				data.dataOrderCaption();
+				currentClassLogger.Debug("data.item1=" + data.item);
+				if (data.orderElement.order.Rows.Count > 0) {
+					data.dataOrderCaption();
+				}
 				order.Show();
 			} else {
 				MessageBox.Show("Не создан ни один заказ. Открывать нечего");
@@ -147,10 +157,9 @@ namespace stolov {
 			if (listOrderElements.Rows.Count > 0) {
 				DialogResult dialogResult = MessageBox.Show("Вы точно хотите удалить выбранную запись?", "Столовая", MessageBoxButtons.YesNo);
 				if (dialogResult == DialogResult.Yes) {
-					int row = listOrderElements.CurrentCell.RowIndex;
 					Data data = Data.getInstance();
-					data.OrderElementList.RemoveAt(row);
-					data.OrderElementListView.RemoveAt(row);
+					int row = listOrderElements.CurrentCell.RowIndex;
+					data.elementRemove(row);
 				}
 			} else {
 				MessageBox.Show("Не создан ни один заказ. Удалять нечего");
@@ -206,6 +215,12 @@ namespace stolov {
 
 		private void CopyMenuPanel_Click(object sender, EventArgs e) {
 			CopyMenuFunc();
+		}
+
+		private void newOrder_Click(object sender, EventArgs e) {
+			user = new Users();
+			user.Show();
+			//user.Show();
 		}
 	}
 }

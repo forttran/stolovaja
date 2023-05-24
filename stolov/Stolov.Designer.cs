@@ -38,7 +38,7 @@
 			this.settings = new System.Windows.Forms.ToolStripMenuItem();
 			this.program = new System.Windows.Forms.ToolStripMenuItem();
 			this.exit = new System.Windows.Forms.ToolStripMenuItem();
-			this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
+			this.newOrder = new System.Windows.Forms.ToolStripMenuItem();
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.contextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
 			this.OpenMenu = new System.Windows.Forms.ToolStripMenuItem();
@@ -137,7 +137,7 @@
 			// 
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem7,
-            this.toolStripMenuItem8});
+            this.newOrder});
 			this.menuStrip1.Location = new System.Drawing.Point(0, 0);
 			this.menuStrip1.Name = "menuStrip1";
 			this.menuStrip1.Size = new System.Drawing.Size(574, 24);
@@ -183,12 +183,12 @@
 			this.exit.Text = "Выход";
 			this.exit.Click += new System.EventHandler(this.exit_Click);
 			// 
-			// toolStripMenuItem8
+			// newOrder
 			// 
-			this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-			this.toolStripMenuItem8.Size = new System.Drawing.Size(88, 20);
-			this.toolStripMenuItem8.Text = "Новый заказ";
-			this.toolStripMenuItem8.Click += new System.EventHandler(this.toolStripMenuItem8_Click);
+			this.newOrder.Name = "newOrder";
+			this.newOrder.Size = new System.Drawing.Size(88, 20);
+			this.newOrder.Text = "Новый заказ";
+			this.newOrder.Click += new System.EventHandler(this.newOrder_Click);
 			// 
 			// panel1
 			// 
@@ -296,7 +296,7 @@
 		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
 		private System.Windows.Forms.ToolStripMenuItem DownloadIsPRO;
 		private System.Windows.Forms.ToolStripMenuItem exit;
-		private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
+		private System.Windows.Forms.ToolStripMenuItem newOrder;
 		private System.Windows.Forms.ToolStripButton CopyMenuPanel;
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.ToolStripMenuItem settings;

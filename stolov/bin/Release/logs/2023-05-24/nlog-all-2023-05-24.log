@@ -1,0 +1,629 @@
+
+2023-05-24 08:38:02.8165|DEBUG|stolov.dataXML|0
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|1...
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|2
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|3
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|4
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|5
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|6
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|7
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|8
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|el.getSum()=236.8
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|9
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|2
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|3
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|4
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|5
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|6
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|7
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|8
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|el.getSum()=181.5
+2023-05-24 08:38:02.8735|DEBUG|stolov.dataXML|9
+2023-05-24 08:42:15.5034|DEBUG|stolov.dataXML|0
+2023-05-24 08:42:15.5564|DEBUG|stolov.dataXML|1...
+2023-05-24 08:42:15.5564|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:42:15.5564|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:42:15.5564|DEBUG|stolov.dataXML|2
+2023-05-24 08:42:15.5564|DEBUG|stolov.dataXML|3
+2023-05-24 08:42:15.5584|DEBUG|stolov.dataXML|4
+2023-05-24 08:42:15.5584|DEBUG|stolov.dataXML|5
+2023-05-24 08:42:15.5584|DEBUG|stolov.dataXML|6
+2023-05-24 08:42:15.5584|DEBUG|stolov.dataXML|7
+2023-05-24 08:42:15.5584|DEBUG|stolov.dataXML|8
+2023-05-24 08:42:15.5584|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|el.getSum()=236.8
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|9
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|2
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|3
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|4
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|5
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|6
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|7
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|8
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|el.getSum()=181.5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.OrderElement|gs5
+2023-05-24 08:42:15.5834|DEBUG|stolov.dataXML|9
+2023-05-24 08:44:43.1603|DEBUG|stolov.dataXML|0
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|1...
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|2
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|3
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|4
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|5
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|6
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|7
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|8
+2023-05-24 08:44:43.2093|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|el.getSum()=236.8
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|9
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|2
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|3
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|4
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|5
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|6
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|7
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|8
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|el.getSum()=181.5
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:44:43.2403|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:44:43.2403|DEBUG|stolov.dataXML|9
+2023-05-24 08:46:32.8644|DEBUG|stolov.dataXML|0
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|1...
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|2
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|3
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|4
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|5
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|6
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|7
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|8
+2023-05-24 08:46:32.9214|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|el.getSum()=236.8
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|9
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|2
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|3
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|4
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|5
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|6
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|7
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|8
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|el.getSum()=181.5
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:46:32.9554|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:46:32.9554|DEBUG|stolov.dataXML|9
+2023-05-24 08:51:13.3308|DEBUG|stolov.dataXML|0
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|1...
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|2
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|3
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|4
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|5
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|6
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|7
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|8
+2023-05-24 08:51:13.3818|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|el.getSum()=236.8
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|9
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|2
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|3
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|4
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|5
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|6
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|7
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|8
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|el.getSum()=181.5
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:51:13.4118|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:51:13.4118|DEBUG|stolov.dataXML|9
+2023-05-24 08:54:01.3495|DEBUG|stolov.dataXML|0
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|1...
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|2
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|3
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|4
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|5
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|6
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|7
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|8
+2023-05-24 08:54:01.4065|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|el.getSum()=236.8
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|9
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|2
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|3
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|4
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|5
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|6
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|7
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|8
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|el.getSum()=181.5
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:54:01.4385|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:01.4385|DEBUG|stolov.dataXML|9
+2023-05-24 08:54:56.2966|DEBUG|stolov.dataXML|0
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|1...
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|2
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|3
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|4
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|5
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|6
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|7
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|8
+2023-05-24 08:54:56.3556|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|el.getSum()=236.8
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|9
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|2.1
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|2.2
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|2
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|3
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|4
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|5
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|6
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|7
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|8
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|el.getSum()=181.5
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs1
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs2
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs3
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs4
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 08:54:56.3906|DEBUG|stolov.OrderElement|gs6
+2023-05-24 08:54:56.3906|DEBUG|stolov.dataXML|9
+2023-05-24 09:11:17.9062|DEBUG|stolov.dataXML|0
+2023-05-24 09:11:17.9622|DEBUG|stolov.dataXML|1...
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|2.1
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|2.2
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|2
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|3
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|4
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|5
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|6
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|7
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|8
+2023-05-24 09:11:17.9642|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 09:11:17.9942|DEBUG|stolov.dataXML|el.getSum()=236.8
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=2.000000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=27.000000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=40.500000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=16.500000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=32.500000
+2023-05-24 09:11:17.9942|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=79.800000
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|9
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|2.1
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|2.2
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|2
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|3
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|4
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|5
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|6
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|7
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|8
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|el.user[1].ToString() = Козлова Людмила Николаевна
+2023-05-24 09:11:17.9962|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 09:11:17.9962|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 09:11:17.9962|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|el.getSum()=181.5
+2023-05-24 09:11:17.9962|DEBUG|stolov.OrderElement|gs5; row[5]=1row[6]=6.000000
+2023-05-24 09:11:17.9962|DEBUG|stolov.OrderElement|gs5; row[5]=2row[6]=27.000000
+2023-05-24 09:11:17.9962|DEBUG|stolov.OrderElement|gs5; row[5]=3row[6]=40.500000
+2023-05-24 09:11:17.9962|DEBUG|stolov.dataXML|9
+2023-05-24 09:13:11.8897|DEBUG|stolov.Order|Новый заказ
+2023-05-24 09:13:11.9457|DEBUG|stolov.Order|Табельный: 1126
+2023-05-24 09:13:11.9457|DEBUG|stolov.Order|ФИО: Трейго Юрий Викторович
+2023-05-24 10:06:42.1937|ERROR|stolov.dataXML|Ошибка изменения данных в XML
+2023-05-24 10:06:42.2695|ERROR|stolov.dataXML|Ошибка: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index; Source: mscorlib
+2023-05-24 10:06:54.6787|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:06:54.6787|DEBUG|stolov.Order|Табельный: 1126
+2023-05-24 10:06:54.6787|DEBUG|stolov.Order|ФИО: Трейго Юрий Викторович
+2023-05-24 10:11:57.6624|DEBUG|stolov.dataXML|+++3
+2023-05-24 10:12:00.9915|ERROR|stolov.dataXML|Ошибка изменения данных в XML
+2023-05-24 10:12:01.0015|ERROR|stolov.dataXML|Ошибка: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index; Source: mscorlib
+2023-05-24 10:12:05.4363|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:12:05.4363|DEBUG|stolov.Order|Табельный: 1126
+2023-05-24 10:12:05.4363|DEBUG|stolov.Order|ФИО: Трейго Юрий Викторович
+2023-05-24 10:12:47.5125|DEBUG|stolov.dataXML|+++3
+2023-05-24 10:12:51.9662|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:12:51.9662|DEBUG|stolov.Order|Табельный: 1126
+2023-05-24 10:12:51.9662|DEBUG|stolov.Order|ФИО: Трейго Юрий Викторович
+2023-05-24 10:13:12.4124|DEBUG|stolov.dataXML|+++2
+2023-05-24 10:13:16.7874|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:13:16.7934|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 10:13:16.7934|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 10:13:57.0370|DEBUG|stolov.dataXML|+++2
+2023-05-24 10:14:01.9662|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:14:01.9662|DEBUG|stolov.Order|Табельный: 1118
+2023-05-24 10:14:01.9662|DEBUG|stolov.Order|ФИО: Агафонов Владислав Захарович
+2023-05-24 10:17:50.9547|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:17:51.0097|DEBUG|stolov.Order|Табельный: 1138
+2023-05-24 10:17:51.0097|DEBUG|stolov.Order|ФИО: Седых Сергей Владимирович
+2023-05-24 10:19:17.6869|DEBUG|stolov.dataXML|+++4
+2023-05-24 10:19:20.3588|ERROR|stolov.dataXML|Ошибка изменения данных в XML
+2023-05-24 10:19:20.3588|ERROR|stolov.dataXML|Ошибка: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index; Source: mscorlib
+2023-05-24 10:19:56.5773|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:19:56.5773|DEBUG|stolov.Order|Табельный: 1138
+2023-05-24 10:19:56.5773|DEBUG|stolov.Order|ФИО: Седых Сергей Владимирович
+2023-05-24 10:20:34.9272|DEBUG|stolov.dataXML|+++1
+2023-05-24 10:20:40.3260|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:20:40.3260|DEBUG|stolov.Order|Табельный: 1028
+2023-05-24 10:20:40.3260|DEBUG|stolov.Order|ФИО: Козлова Людмила Николаевна
+2023-05-24 10:21:06.5234|DEBUG|stolov.dataXML|+++2
+2023-05-24 10:21:10.7964|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:21:10.7964|DEBUG|stolov.Order|Табельный: 1118
+2023-05-24 10:21:10.7964|DEBUG|stolov.Order|ФИО: Агафонов Владислав Захарович
+2023-05-24 10:23:12.5569|DEBUG|stolov.dataXML|+++4
+2023-05-24 10:23:14.4880|ERROR|stolov.dataXML|Ошибка изменения данных в XML
+2023-05-24 10:23:14.4880|ERROR|stolov.dataXML|Ошибка: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index; Source: mscorlib
+2023-05-24 10:24:07.5608|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:24:07.5608|DEBUG|stolov.Order|Табельный: 1138
+2023-05-24 10:24:07.5608|DEBUG|stolov.Order|ФИО: Седых Сергей Владимирович
+2023-05-24 10:24:35.4381|DEBUG|stolov.dataXML|+++4
+2023-05-24 10:24:36.8948|ERROR|stolov.dataXML|Ошибка изменения данных в XML
+2023-05-24 10:24:36.8948|ERROR|stolov.dataXML|Ошибка: Индекс за пределами диапазона. Индекс должен быть положительным числом, а его размер не должен превышать размер коллекции.
+Имя параметра: index; Source: mscorlib
+2023-05-24 10:24:44.1426|DEBUG|stolov.Order|Новый заказ
+2023-05-24 10:24:44.1426|DEBUG|stolov.Order|Табельный: 1138
+2023-05-24 10:24:44.1426|DEBUG|stolov.Order|ФИО: Седых Сергей Владимирович

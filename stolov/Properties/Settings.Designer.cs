@@ -71,5 +71,17 @@ namespace stolov.Properties {
                 this["Prints"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("6.1")]
+        public float sizePrint {
+            get {
+                return ((float)(this["sizePrint"]));
+            }
+            set {
+                this["sizePrint"] = value;
+            }
+        }
     }
 }

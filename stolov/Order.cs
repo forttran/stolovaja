@@ -42,8 +42,15 @@ namespace stolov {
 		}
 
 		private void button1_Click(object sender, EventArgs e) {
+			Data data = Data.getInstance();
 			prise = new Prise();
-			prise.Show();
+			prise.ShowDialog();
+			if (data.order.Rows.Count > 0) {
+				data.orderGV.Visible = true;
+				data.dataOrderCaption();
+			} else {
+				data.orderGV.Visible = false;
+			}
 		}
 		private void Log(Data data) {
 			currentClassLogger.Debug("Новый заказ");
@@ -64,7 +71,7 @@ namespace stolov {
 			String FIO = "";
 			String tab = "";
 			data.orderElement.order = data.order.Copy();
-			this.Close();
+			currentClassLogger.Debug("data.item2=" + data.item);
 			if (data.orderElement.inAction == -1) {
 				data.orderElement.inAction = data.OrderElementList.Count;
 				data.OrderElementList.Add(data.orderElement);
@@ -73,13 +80,18 @@ namespace stolov {
 					tab = data.orderElement.user[0].ToString();
 				}
 				data.OrderElementListView.Add(new OrderElementView(data.OrderElementListView.Count + 1, FIO, data.orderElement.getSum()));
+				dataXML xml = new dataXML();
+				currentClassLogger.Debug("data.item новый=" + data.item);
+				xml.SetXML(data.orderElement);
 			} else {
 				data.OrderElementList[data.orderElement.inAction] = data.orderElement;
 				data.OrderElementListView[data.orderElement.inAction].sum = data.orderElement.getSum();
+				dataXML xml = new dataXML();
+				currentClassLogger.Debug("data.item редактирование=" + data.item);
+				xml.changeXML(data.orderElement.inAction);
 			}
 			data.orderGV.Refresh();
-			//dataXML xml = new dataXML();
-			//xml.Get(data.orderElement);
+			this.Close();
 			Print print = new Print(data.orderElement.order, data.OrderElementListView.Count, FIO, tab);
 
 			Log(data);
@@ -95,7 +107,10 @@ namespace stolov {
 			data.orderGV = this.dataGridOrder;
 			data.orderGV.DataSource = data.order;
 			if (data.order.Rows.Count > 0) {
+				data.orderGV.Visible = true;
 				data.dataOrderCaption();
+			} else {
+				data.orderGV.Visible= false;
 			}
 		}
 

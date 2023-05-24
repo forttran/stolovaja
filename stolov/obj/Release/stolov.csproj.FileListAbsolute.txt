@@ -1,12 +1,9 @@
-D:\Users\vasilievsn\Desktop\hello\stolov\stolov\bin\Release\stolov.exe
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\bin\Release\stolov.pdb
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.csproj.AssemblyReference.cache
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.Properties.Resources.resources
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.csproj.GenerateResource.cache
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.csproj.CoreCompileInputs.cache
-D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.exe
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.pdb
-D:\Users\vasilievsn\Desktop\hello\stolov\stolov\bin\Release\stolov.exe.config
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\bin\Release\NLog.config
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\bin\Release\Properties\Settings.Designer.cs
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\bin\Release\Properties\Settings.settings
@@ -168,3 +165,7 @@ D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.Prise.resourc
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.Users.resources
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.csproj.CopyComplete
 D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.SettingsProg.resources
+D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.AboutProgram.resources
+D:\Users\vasilievsn\Desktop\hello\stolov\stolov\bin\Release\stolov.exe.config
+D:\Users\vasilievsn\Desktop\hello\stolov\stolov\bin\Release\stolov.exe
+D:\Users\vasilievsn\Desktop\hello\stolov\stolov\obj\Release\stolov.exe

@@ -37,10 +37,7 @@ namespace stolov {
 			return instance;
 		}
 		public static DataTable Query(String query) {
-			SqlCommand cmd = new SqlCommand {
-				CommandText = query,
-				Connection = con
-			};
+			SqlCommand cmd = new SqlCommand (query, con);
 
 			SqlDataReader reader = cmd.ExecuteReader();
 			DataTable dataTable = new DataTable();
