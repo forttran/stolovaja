@@ -66,8 +66,8 @@
 			this.listOrderElements.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
 			this.listOrderElements.Size = new System.Drawing.Size(574, 346);
 			this.listOrderElements.TabIndex = 1;
-			this.listOrderElements.CellContextMenuStripNeeded += new System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventHandler(this.listOrderElements_CellContextMenuStripNeeded);
-			this.listOrderElements.MouseDown += new System.Windows.Forms.MouseEventHandler(this.listOrderElements_MouseDown);
+			this.listOrderElements.CellContextMenuStripNeeded += new System.Windows.Forms.DataGridViewCellContextMenuStripNeededEventHandler(this.ListOrderElements_CellContextMenuStripNeeded);
+			this.listOrderElements.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ListOrderElements_MouseDown);
 			// 
 			// toolStrip1
 			// 
@@ -111,7 +111,7 @@
 			this.changeMenuPanel.Name = "changeMenuPanel";
 			this.changeMenuPanel.Size = new System.Drawing.Size(23, 22);
 			this.changeMenuPanel.Text = "Изменить";
-			this.changeMenuPanel.Click += new System.EventHandler(this.changeMenuPanel_Click);
+			this.changeMenuPanel.Click += new System.EventHandler(this.ChangeMenuPanel_Click);
 			// 
 			// deleteMenuPanel
 			// 
@@ -121,7 +121,7 @@
 			this.deleteMenuPanel.Name = "deleteMenuPanel";
 			this.deleteMenuPanel.Size = new System.Drawing.Size(23, 22);
 			this.deleteMenuPanel.Text = "Удалить";
-			this.deleteMenuPanel.Click += new System.EventHandler(this.deleteMenuPanel_Click);
+			this.deleteMenuPanel.Click += new System.EventHandler(this.DeleteMenuPanel_Click);
 			// 
 			// CopyMenuPanel
 			// 
@@ -167,28 +167,28 @@
 			this.settings.Name = "settings";
 			this.settings.Size = new System.Drawing.Size(190, 22);
 			this.settings.Text = "Настройки";
-			this.settings.Click += new System.EventHandler(this.settings_Click);
+			this.settings.Click += new System.EventHandler(this.Settings_Click);
 			// 
 			// program
 			// 
 			this.program.Name = "program";
 			this.program.Size = new System.Drawing.Size(190, 22);
 			this.program.Text = "О программе";
-			this.program.Click += new System.EventHandler(this.program_Click);
+			this.program.Click += new System.EventHandler(this.Program_Click);
 			// 
 			// exit
 			// 
 			this.exit.Name = "exit";
 			this.exit.Size = new System.Drawing.Size(190, 22);
 			this.exit.Text = "Выход";
-			this.exit.Click += new System.EventHandler(this.exit_Click);
+			this.exit.Click += new System.EventHandler(this.Exit_Click);
 			// 
 			// newOrder
 			// 
 			this.newOrder.Name = "newOrder";
 			this.newOrder.Size = new System.Drawing.Size(88, 20);
 			this.newOrder.Text = "Новый заказ";
-			this.newOrder.Click += new System.EventHandler(this.newOrder_Click);
+			this.newOrder.Click += new System.EventHandler(this.NewOrder_Click);
 			// 
 			// panel1
 			// 
@@ -226,7 +226,7 @@
 			this.changeMenu.Name = "changeMenu";
 			this.changeMenu.Size = new System.Drawing.Size(167, 22);
 			this.changeMenu.Text = "Изменить";
-			this.changeMenu.Click += new System.EventHandler(this.changeMenu_Click);
+			this.changeMenu.Click += new System.EventHandler(this.ChangeMenu_Click);
 			// 
 			// CreateMenu
 			// 
@@ -242,7 +242,7 @@
 			this.deleteMenu.Name = "deleteMenu";
 			this.deleteMenu.Size = new System.Drawing.Size(167, 22);
 			this.deleteMenu.Text = "Удалить";
-			this.deleteMenu.Click += new System.EventHandler(this.deleteMenu_Click);
+			this.deleteMenu.Click += new System.EventHandler(this.DeleteMenu_Click);
 			// 
 			// CopyMenu
 			// 

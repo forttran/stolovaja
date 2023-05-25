@@ -176,7 +176,6 @@
       <DependentUpon>Stolov.cs</DependentUpon>
     </Compile>
     <Compile Include="OrdersToISPRO.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Print.cs" />
     <Compile Include="Prise.cs">
       <SubType>Form</SubType>

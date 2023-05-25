@@ -37,12 +37,18 @@ namespace stolov {
 			return instance;
 		}
 		public static DataTable Query(String query) {
-			SqlCommand cmd = new SqlCommand (query, con);
-
-			SqlDataReader reader = cmd.ExecuteReader();
-			DataTable dataTable = new DataTable();
-			dataTable.Load(reader);
-			return dataTable;
+			try {
+				SqlCommand cmd = new SqlCommand(query, con);
+				SqlDataReader reader = cmd.ExecuteReader();
+				DataTable dataTable = new DataTable();
+				dataTable.Load(reader);
+				return dataTable;
+			}catch(Exception e) {
+				MessageBox.Show("Проблемы с SQL запросом.");
+				currentClassLogger.Error("DB.Query.Проблемы с SQL запросом.");
+				currentClassLogger.Error("Ошибка: " + e.Message + "; Source: " + e.Source);
+				return new DataTable();
+			}
 		}
 	}
 }

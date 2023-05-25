@@ -20,7 +20,7 @@ namespace stolov {
 		private XElement GenerateElement(OrderElement orderElement) {
 			XElement order;
 			XElement user;
-			Data data = Data.getInstance();
+			Data data = Data.GetInstance();
 			try {
 				if (orderElement.user != null) {
 					XAttribute type = new("Type", 1);
@@ -59,12 +59,13 @@ namespace stolov {
 					id = orderElement.id;
 				}
 				order = new XElement("order",
-						new XAttribute("sum", orderElement.getSum()),
+						new XAttribute("sum", orderElement.GetSum()),
 						new XAttribute("id", id),
+						new XAttribute("ret", orderElement.ret),
 						user, lists);
 			}catch(Exception ex) {
 				MessageBox.Show("Ошибка генерации элемента");
-				currentClassLogger.Error("Ошибка генерации элемента");
+				currentClassLogger.Error("DataXML.GenerateElement.Ошибка генерации элемента");
 				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 				order = new XElement("order");
 			}
@@ -72,21 +73,28 @@ namespace stolov {
 		}
 		public void GetXML() {//Получаем данные из XML файла
 			try {
-				Data data = Data.getInstance();
+				Data data = Data.GetInstance();
+				//считываем данные из файла
 				XDocument xdoc;
 				try {
 					xdoc = XDocument.Load("orders.xml");
 				} catch {
 					xdoc = new XDocument(new XElement("orders"));
 				}
-				// получаем корневой узел
 				XElement orders = xdoc.Element("orders");
+
 				if (orders is not null) {
-					// проходим по всем элементам person
+					// проходим по всем элементам orders
 					int index = 1;
 					foreach (XElement order in orders.Elements("order")) {
+						//получаем максимальный айдишник
 						data.idXML = Math.Max(data.idXML, Int32.Parse(order.Attribute("id").Value));
-						OrderElement el = new(Int32.Parse(order.Attribute("id").Value));
+
+						//Создаем пустой заказ
+						OrderElement el = new(Int32.Parse(order.Attribute("id").Value)) {
+							ret = Convert.ToBoolean(order.Attribute("ret").Value)
+						};
+						//Создаем объект юзера
 						XElement user = order.Element("user");
 						if(Int32.Parse(user.Attribute("Type").Value) == 1) {
 							String[] namesUser = { "Kpu_Tn", "Fio", "SprPdr_NmFull", "Kpu_DtNpSt", "Kpu_DtRoj", "Dol" };
@@ -103,8 +111,8 @@ namespace stolov {
 							el.user = null;
 						}
 
-						XElement lists = order.Element("lists");
-						XAttribute[] ls = new XAttribute[11];
+						//Создаем объект позиций
+						XElement lists = order.Element("lists");		
 						String[] namesOrder = { "prcSRcdNom", "sPrArt", "sPrArtNm", "sPrGrpNm", "sPrEiSh", "SklN_NoTrd", "sPrCn", "SklOpa_Rcd", "SklPrc_Rcd", "EI_Rcd" };
 						el.order = new DataTable();
 						foreach (string item in namesOrder) {
@@ -119,43 +127,27 @@ namespace stolov {
 							}
 							el.order.Rows.Add(row);
 						}
+
+						//Добавляем созданный элемент в список
 						data.OrderElementList.Add(el);
 						if(el.user != null) {
-							data.OrderElementListView.Add(new OrderElementView(index, el.user[1].ToString(), el.getSum()));
+							data.OrderElementListView.Add(new OrderElementView(index, el.user[1].ToString(), el.GetSum()));
 						} else {
-							data.OrderElementListView.Add(new OrderElementView(index, "", el.getSum()));
+							data.OrderElementListView.Add(new OrderElementView(index, "", el.GetSum()));
 						}
 						index++;
 					}
 				}
 			} catch (Exception ex) {
 				MessageBox.Show("Ошибка получения данных из XML");
-				currentClassLogger.Error("Ошибка получения данных из XML");
+				currentClassLogger.Error("DataXML.GetXML.Ошибка получения данных из XML");
 				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 			}
 		}
 		public void SetXML(OrderElement orderElement) {//Запись в XML фаил
 			try {
-				Data data = Data.getInstance();
-				XDocument xdoc;
-				try {
-					xdoc = XDocument.Load("orders.xml");
-				} catch {
-					xdoc = new XDocument(new XElement("orders"));
-				}
-				XElement root = xdoc.Element("orders");
-				root.Add(GenerateElement(orderElement));
-				xdoc.Save("orders.xml");
-			}catch(Exception ex) {
-				MessageBox.Show("Ошибка записи данных в XML");
-				currentClassLogger.Error("Ошибка записи данных в XML");
-				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
-			}
-		}
-
-		public void ChangeXML(int index) {//Изменение XML файла
-			try {
-				Data data = Data.getInstance();
+				Data data = Data.GetInstance();
+				//считываем данные из файла
 				XDocument xdoc;
 				try {
 					xdoc = XDocument.Load("orders.xml");
@@ -163,6 +155,30 @@ namespace stolov {
 					xdoc = new XDocument(new XElement("orders"));
 				}
 				XElement orders = xdoc.Element("orders");
+
+				//Добавляем новый элемент и сохраняем
+				orders.Add(GenerateElement(orderElement));
+				xdoc.Save("orders.xml");
+			}catch(Exception ex) {
+				MessageBox.Show("Ошибка записи данных в XML");
+				currentClassLogger.Error("DataXML.SetXML.Ошибка записи данных в XML");
+				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
+			}
+		}
+
+		public void ChangeXML(int index) {//Изменение XML файла
+			try {
+				Data data = Data.GetInstance();
+
+				//считываем данные из файла
+				XDocument xdoc;
+				try {
+					xdoc = XDocument.Load("orders.xml");
+				} catch {
+					xdoc = new XDocument(new XElement("orders"));
+				}
+				XElement orders = xdoc.Element("orders");
+
 				if (orders is not null) {
 					var order = xdoc.Element("orders")?
 						.Elements("order")
@@ -170,17 +186,20 @@ namespace stolov {
 					XElement ChangeOrder = GenerateElement(data.OrderElementList[index]);
 					order.ReplaceWith(ChangeOrder);
 				}
+
 				xdoc.Save("orders.xml");
 			}catch(Exception ex) {
 				MessageBox.Show("Ошибка изменения данных в XML");
-				currentClassLogger.Error("Ошибка изменения данных в XML");
+				currentClassLogger.Error("DataXML.ChangeXML.Ошибка изменения данных в XML");
 				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 			}
 		}
 
 		public void DeleteXML(int index) {//Удаление XML файла
 			try {
-				Data data = Data.getInstance();
+				Data data = Data.GetInstance();
+
+				//считываем данные из файла
 				XDocument xdoc;
 				try {
 					xdoc = XDocument.Load("orders.xml");
@@ -188,6 +207,7 @@ namespace stolov {
 					xdoc = new XDocument(new XElement("orders"));
 				}
 				XElement orders = xdoc.Element("orders");
+
 				if (orders is not null) {
 					// проходим по всем элементам person
 					int i = 1;
@@ -201,7 +221,7 @@ namespace stolov {
 				xdoc.Save("orders.xml");
 			}catch	(Exception ex) {
 				MessageBox.Show("Ошибка удаления данных в XML");
-				currentClassLogger.Error("Ошибка удаления данных в XML");
+				currentClassLogger.Error("DataXML.DeleteXML.Ошибка удаления данных в XML");
 				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 			}
 		}
@@ -210,7 +230,7 @@ namespace stolov {
 				File.Copy(@"orders.xml", @"orders_old.xml", true);
 			}catch (Exception ex) {
 				MessageBox.Show("Ошибка копирования файла данных XML");
-				currentClassLogger.Error("Ошибка копирования файла данных XML");
+				currentClassLogger.Error("DataXML.CloneXML.Ошибка копирования файла данных XML");
 				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 			}
 		}

@@ -72,7 +72,7 @@
 			this.button2.TabIndex = 1;
 			this.button2.Text = "Завершить и распечатать";
 			this.button2.UseVisualStyleBackColor = true;
-			this.button2.Click += new System.EventHandler(this.button2_Click);
+			this.button2.Click += new System.EventHandler(this.Button2_Click);
 			// 
 			// button1
 			// 
@@ -83,7 +83,7 @@
 			this.button1.TabIndex = 0;
 			this.button1.Text = "Выбрать из прайса";
 			this.button1.UseVisualStyleBackColor = true;
-			this.button1.Click += new System.EventHandler(this.button1_Click);
+			this.button1.Click += new System.EventHandler(this.Button1_Click);
 			// 
 			// panel3
 			// 
@@ -115,7 +115,6 @@
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Заказчик:";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-			this.label1.Click += new System.EventHandler(this.label1_Click);
 			// 
 			// panel2
 			// 

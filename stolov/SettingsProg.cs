@@ -22,6 +22,7 @@ namespace stolov {
 			InitializeComponent();
 		}
 		public static Logger currentClassLogger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
+		//функция для отображения табов вертикально
 		private void tabControl1_DrawItem(object sender, DrawItemEventArgs e) {
 			Graphics g;
 			string sText;
@@ -41,7 +42,7 @@ namespace stolov {
 			iY = e.Bounds.Top + (e.Bounds.Height - sizeText.Height) / 2;
 			g.DrawString(sText, ctlTab.Font, Brushes.Black, iX, iY);
 		}
-
+		//Загрузка формы настроек
 		private void SettingsProg_Load(object sender, EventArgs e) {
 			try {
 				textBox6.Text = Settings.Default.GeneratePath;
@@ -65,11 +66,11 @@ namespace stolov {
 				}
 			} catch (Exception ex) {
 				MessageBox.Show("Ошибка загрузки настроек");
-				currentClassLogger.Error("Ошибка загрузки настроек");
+				currentClassLogger.Error("SettingsProg.SettingsProg_Load.Ошибка загрузки настроек");
 				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 			}
 		}
-
+		//сохранение настроек
 		private void button1_Click(object sender, EventArgs e) {
 			try {
 				Settings.Default.GeneratePath = textBox6.Text;
@@ -86,18 +87,18 @@ namespace stolov {
 				this.Close();
 			}catch(Exception ex) {
 				MessageBox.Show("Ошибка записи настроек");
-				currentClassLogger.Error("Ошибка записи настроек");
+				currentClassLogger.Error("SettingsProg.button1_ClickОшибка записи настроек");
 				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 			}
 		}
-
+		//Выбор директории
 		private void button3_Click(object sender, EventArgs e) {
 			FolderBrowserDialog FBD = new FolderBrowserDialog();
 			if (FBD.ShowDialog() == DialogResult.OK) {
 				textBox6.Text = FBD.SelectedPath;
 			}
 		}
-
+		//выбор файла для сообщения о празднике
 		private void button4_Click(object sender, EventArgs e) {
 			OpenFileDialog OPF = new OpenFileDialog();
 			OPF.Filter = "Файлы txt|*.txt";

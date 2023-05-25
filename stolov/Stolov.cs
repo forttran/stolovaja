@@ -20,12 +20,12 @@ using System.Xml.Serialization;
 namespace stolov {
     public partial class Ctolov : Form {
 		public static Logger currentClassLogger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
-		public Users user = new Users();
+		public Users user;
 		public Order order;
 		public Ctolov() {
             InitializeComponent();
         }
-
+		//функция для подключения обработчика нажатия клавиш
 		protected override bool ProcessCmdKey(ref Message msg, Keys keyData) {
 			if (keyData == (Keys.Insert)) {
 				user = new Users();
@@ -33,80 +33,82 @@ namespace stolov {
 				return true;
 			}
 			return base.ProcessCmdKey(ref msg, keyData);
-		}
-
-		private void toolStripMenuItem8_Click(object sender, EventArgs e) {
-
-			user = new Users();
-			user.ShowDialog();
-			//user.Show();
-		}
-
+		}	
+		//Функция загразки главной формы
 		private void Ctolov_Load(object sender, EventArgs e) {
-			Data data = Data.getInstance();
-            data.OrderElementListGV = this.listOrderElements;
-			data.OrderElementListGV.DataSource = data.OrderElementListView;
-			this.listOrderElements.Columns[0].HeaderText = "Номер";
-			this.listOrderElements.Columns[0].Width = 50;
-			this.listOrderElements.Columns[1].HeaderText = "Дата";
-			this.listOrderElements.Columns[1].Width = 80;
-			this.listOrderElements.Columns[2].HeaderText = "ФИО";
-			this.listOrderElements.Columns[2].Width = 270;
-			this.listOrderElements.Columns[3].HeaderText = "Сумма";
-			this.listOrderElements.Columns[3].Width = 130;
-			DataXML xml = new DataXML();
-			xml.GetXML();
-		}
-
-		private void toolStripButton5_Click(object sender, EventArgs e) {
-			Data data = Data.getInstance();
-
-			// объект для сериализации
-			Person person = new Person("Tom", 37);
-
-			// передаем в конструктор тип класса Person
-			XmlSerializer xmlSerializer = new XmlSerializer(typeof(Person));
-
-			// получаем поток, куда будем записывать сериализованный объект
-			using (FileStream fs = new FileStream("person.xml", FileMode.OpenOrCreate)) {
-				xmlSerializer.Serialize(fs, person);
-
-				Console.WriteLine("Object has been serialized");
+			try {
+				Data data = Data.GetInstance();
+				data.OrderElementListGV = this.listOrderElements;
+				data.OrderElementListGV.DataSource = data.OrderElementListView;
+				data.ListOrderElementsCaptions();
+				DataXML xml = new();
+				xml.GetXML();
+			}catch(Exception ex) {
+				MessageBox.Show("При загрузке формы возникли проблемы.");
+				currentClassLogger.Error("Stolov.Ctolov_Load.При загрузке формы возникли проблемы.");
+				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 			}
 		}
-
-		private void settings_Click(object sender, EventArgs e) {
-			SettingsProg settings = new SettingsProg();
+		//Отображение формы настроек
+		private void Settings_Click(object sender, EventArgs e) {
+			SettingsProg settings = new();
 			settings.Show();
 		}
-
-		private void DownloadIsPRO_Click(object sender, EventArgs e) {
-			Data data = Data.getInstance();
-			if (data.OrderElementList.Count > 0) {
-				DataXML xml = new DataXML();
-				xml.CloneXML();
-				OrdersToISPRO OrdersToISPRO = new OrdersToISPRO();
-				OrdersToISPRO.TMPtoPrdZkg();
-				MessageBox.Show("Данные выгружены");
-				currentClassLogger.Debug("Данные выгружены");
-			} else {
-				MessageBox.Show("Данных для выгрузки нет");
-				currentClassLogger.Debug("Данных для выгрузки нет");
-			}
+		//о программе
+		private void Program_Click(object sender, EventArgs e) {
+			AboutProgram about = new();
+			about.ShowDialog();
 		}
-
-		private void exit_Click(object sender, EventArgs e) {
+		//выходим
+		private void Exit_Click(object sender, EventArgs e) {
 			Application.Exit();
 		}
-
-
-		private void listOrderElements_CellContextMenuStripNeeded(object sender, DataGridViewCellContextMenuStripNeededEventArgs e) {
+		//Функция начала создания нового заказа
+		private void CreateMenu_Click(object sender, EventArgs e) {
+			ShowUser();
+		}
+		//Функция начала создания нового заказа
+		private void CreateMenuPanel_Click(object sender, EventArgs e) {
+			ShowUser();
+		}
+		//Функция начала создания нового заказа
+		private void NewOrder_Click(object sender, EventArgs e) {
+			ShowUser();
+		}
+		//Отображаем форму
+		public void ShowUser() {
+			user = new Users();
+			user.Show();
+		}
+		//Выгрузка данных в ис-про
+		private void DownloadIsPRO_Click(object sender, EventArgs e) {
+			try {
+				Data data = Data.GetInstance();
+				if (data.OrderElementList.Count > 0) {//если есть что выгружать
+					DataXML xml = new();
+					xml.CloneXML();//Клонируем данные на всякий случай
+					OrdersToISPRO OrdersToISPRO = new();
+					OrdersToISPRO.TMPtoPrdZkg();//запуск главной функции выгрузки
+					MessageBox.Show("Данные выгружены");
+					currentClassLogger.Debug("Данные выгружены");
+				} else {
+					MessageBox.Show("Данных для выгрузки нет");
+					currentClassLogger.Debug("Данных для выгрузки нет");
+				}
+			}catch(Exception ex) {
+				MessageBox.Show("При выгрузке в ИС-ПРО возникли проблемы.");
+				currentClassLogger.Error("Stolov.DownloadIsPRO_Click.При выгрузке в ИС-ПРО возникли проблемы.");
+				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
+			}
+		}
+		//Функция нужна для отображения контекстного меню на главной
+		private void ListOrderElements_CellContextMenuStripNeeded(object sender, DataGridViewCellContextMenuStripNeededEventArgs e) {
 			if (e.ColumnIndex != -1 && e.RowIndex != -1) {
 				contextMenu.Show(Cursor.Position);
 			}
 		}
-
-		private void listOrderElements_MouseDown(object sender, MouseEventArgs e) {
+		//Функция нужна для перемещения выделения по датагриду при клике левой кнопки мыши
+		private void ListOrderElements_MouseDown(object sender, MouseEventArgs e) {
 			if (e.Button == MouseButtons.Right) {
 				var hit = listOrderElements.HitTest(e.X, e.Y);
 				if (hit.RowIndex >= 0) {
@@ -116,111 +118,120 @@ namespace stolov {
 				}
 			}
 		}
+		//Функция редактирования
+		private void ChangeMenuFunc() {
+			try {
+				if (listOrderElements.Rows.Count > 0) {
+					int row = listOrderElements.CurrentCell.RowIndex;//получаем номер заказа
+					Data data = Data.GetInstance();
+					order = new Order();//создаем форму 
 
-		private void changeMenuFunc() {
-			if (listOrderElements.Rows.Count > 0) {
-				int row = listOrderElements.CurrentCell.RowIndex;
-				Data data = Data.getInstance();
-				order = new Order();
-				data.OrderElementList[row].inAction = row;
-				data.orderElement = data.OrderElementList[row];
-				data.order = data.orderElement.order.Copy();
-				if (data.orderElement.user == null) {
-					order.lebeltext = "наличный расчет";
+					data.OrderElementList[row].inAction = row;//подготовка и инициализация структур для редактирования
+					data.orderElement = data.OrderElementList[row];
+					data.order = data.orderElement.order.Copy();
+
+					if (data.orderElement.user == null) {
+						order.Lebeltext = "наличный расчет";
+					} else {
+						order.Lebeltext = data.orderElement.user[1].ToString();
+					}
+
+					data.orderGV = order.dataGridOrder;
+					data.orderGV.DataSource = data.orderElement.order;
+					data.item = row;
+
+					if (data.orderElement.order.Rows.Count > 0) {//Если есть что отображать по позициям в заказе
+						data.DataOrderCaption();//рисуем шапку
+					}
+					order.Show();
 				} else {
-					order.lebeltext = data.orderElement.user[1].ToString();
+					MessageBox.Show("Не создан ни один заказ. Открывать нечего");
 				}
-				data.orderGV = order.dataGridOrder;
-				data.orderGV.DataSource = data.orderElement.order;
-				data.item = row;
-				currentClassLogger.Debug("data.item1=" + data.item);
-				if (data.orderElement.order.Rows.Count > 0) {
-					data.dataOrderCaption();
-				}
-				order.Show();
-			} else {
-				MessageBox.Show("Не создан ни один заказ. Открывать нечего");
+			}catch(Exception ex) {
+				MessageBox.Show("При редактировании заказа возникли проблемы.");
+				currentClassLogger.Error("Stolov.ChangeMenuFunc.При редактировании заказа возникли проблемы.");
+				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 			}
 		}
+		//Функция для копирования заказов
 		private void CopyMenuFunc() {
-			if (listOrderElements.Rows.Count > 0) {
-				int row = listOrderElements.CurrentCell.RowIndex;
-				Data data = Data.getInstance();
+			try {
+				if (listOrderElements.Rows.Count > 0) {
+					int row = listOrderElements.CurrentCell.RowIndex;//получаем номер заказа
+					Data data = Data.GetInstance();
 
-				data.OrderElementList.Add(data.OrderElementList[row].Copy());
-				data.OrderElementListView.Add(new OrderElementView(data.OrderElementListView.Count + 1, data.OrderElementList[row].user[1].ToString(), data.OrderElementList[row].getSum()));
-			} else {
-				MessageBox.Show("Не создан ни один заказ. Копировать нечего");
-			}
-		}
-		private void deleteMenuFunc() {
-			if (listOrderElements.Rows.Count > 0) {
-				DialogResult dialogResult = MessageBox.Show("Вы точно хотите удалить выбранную запись?", "Столовая", MessageBoxButtons.YesNo);
-				if (dialogResult == DialogResult.Yes) {
-					Data data = Data.getInstance();
-					int row = listOrderElements.CurrentCell.RowIndex;
-					data.elementRemove(row);
+					data.OrderElementList.Add(data.OrderElementList[row].Copy());//Добавляем копию заказа в главную струтуру
+					if (data.OrderElementList[row].user != null) {
+						data.OrderElementListView.Add(new OrderElementView(data.OrderElementListView.Count + 1, data.OrderElementList[row].user[1].ToString(), data.OrderElementList[row].GetSum()));
+					} else {
+						data.OrderElementListView.Add(new OrderElementView(data.OrderElementListView.Count + 1, "", data.OrderElementList[row].GetSum()));
+					}
+					DataXML xml = new();//Добавляем данные в XML
+					xml.SetXML(data.OrderElementList[row].Copy());
+				} else {
+					MessageBox.Show("Не создан ни один заказ. Копировать нечего");
 				}
-			} else {
-				MessageBox.Show("Не создан ни один заказ. Удалять нечего");
+			} catch (Exception ex) {
+				MessageBox.Show("При копировании заказа возникли проблемы.");
+				currentClassLogger.Error("Stolov.CopyMenuFunc.При копировании заказа возникли проблемы.");
+				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
 			}
 		}
-		private void changeMenu_Click(object sender, EventArgs e) {
-			changeMenuFunc();
+		//функция удаления заказа
+		private void DeleteMenuFunc() {
+			try {
+				if (listOrderElements.Rows.Count > 0) {
+					DialogResult dialogResult = MessageBox.Show("Вы точно хотите удалить выбранную запись?", "Столовая", MessageBoxButtons.YesNo);
+					if (dialogResult == DialogResult.Yes) {
+						Data data = Data.GetInstance();
+						int row = listOrderElements.CurrentCell.RowIndex;
+						data.ElementRemove(row);//собственно удаление
+					}
+				} else {
+					MessageBox.Show("Не создан ни один заказ. Удалять нечего");
+				}
+			} catch (Exception ex) {
+				MessageBox.Show("При удалении заказа возникли проблемы.");
+				currentClassLogger.Error("Stolov.DeleteMenuFunc.При удалении заказа возникли проблемы.");
+				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
+			}
 		}
+		//Функция реализации возврата
 		private void ReturnMenu_Click(object sender, EventArgs e) {
-			int row = listOrderElements.CurrentCell.RowIndex;
-			Data data = Data.getInstance();
-			data.OrderElementList[row].ret = true;
-			MessageBox.Show("Возврат для заказа оформлен");
+			try {
+				int row = listOrderElements.CurrentCell.RowIndex;
+				Data data = Data.GetInstance();
+				data.OrderElementList[row].ret = true;
+				MessageBox.Show("Возврат для заказа оформлен");
+			} catch (Exception ex) {
+				MessageBox.Show("При воврате заказа возникли проблемы.");
+				currentClassLogger.Error("Stolov.ReturnMenu_Click.При воврате заказа возникли проблемы.");
+				currentClassLogger.Error("Ошибка: " + ex.Message + "; Source: " + ex.Source);
+			}
 		}
-		private void deleteMenu_Click(object sender, EventArgs e) {
-			deleteMenuFunc();
+		private void ChangeMenu_Click(object sender, EventArgs e) {
+			ChangeMenuFunc();
 		}
-
+		private void DeleteMenu_Click(object sender, EventArgs e) {
+			DeleteMenuFunc();
+		}
 		private void OpenMenu_Click(object sender, EventArgs e) {
-			changeMenuFunc();
+			ChangeMenuFunc();
 		}
-
-		private void CreateMenu_Click(object sender, EventArgs e) {
-			user = new Users();
-			user.Show();
-		}
-
 		private void CopyMenu_Click(object sender, EventArgs e) {
 			CopyMenuFunc();
 		}
-
-		private void program_Click(object sender, EventArgs e) {
-			AboutProgram about = new AboutProgram();
-			about.ShowDialog();
-		}
-
 		private void OpenMenuPanel_Click(object sender, EventArgs e) {
-			changeMenuFunc();
+			ChangeMenuFunc();
 		}
-
-		private void CreateMenuPanel_Click(object sender, EventArgs e) {
-			user = new Users();
-			user.Show();
+		private void ChangeMenuPanel_Click(object sender, EventArgs e) {
+			ChangeMenuFunc();
 		}
-
-		private void changeMenuPanel_Click(object sender, EventArgs e) {
-			changeMenuFunc();
+		private void DeleteMenuPanel_Click(object sender, EventArgs e) {
+			DeleteMenuFunc();
 		}
-
-		private void deleteMenuPanel_Click(object sender, EventArgs e) {
-			deleteMenuFunc();
-		}
-
 		private void CopyMenuPanel_Click(object sender, EventArgs e) {
 			CopyMenuFunc();
-		}
-
-		private void newOrder_Click(object sender, EventArgs e) {
-			user = new Users();
-			user.Show();
-			//user.Show();
 		}
 	}
 }

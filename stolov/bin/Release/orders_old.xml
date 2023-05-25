@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<orders>
+  <order sum="74" id="2" ret="false">
+    <user Type="1" Kpu_Tn="1028" Fio="Козлова Людмила Николаевна" SprPdr_NmFull="Отдел автоматизации" Kpu_DtNpSt="04-03-2004" Kpu_DtRoj="19-09-1969" Dol="Электроник" />
+    <lists>
+      <list prcSRcdNom="13773" sPrArt="00000000000000005417" sPrArtNm="0 Горчица столовая" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="1" sPrCn="2.000000" SklOpa_Rcd="9813" SklPrc_Rcd="64131" EI_Rcd="51" />
+      <list prcSRcdNom="13448" sPrArt="00000000000000005118" sPrArtNm="0 Кетчуп 30г" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="1" sPrCn="6.000000" SklOpa_Rcd="9503" SklPrc_Rcd="63604" EI_Rcd="51" />
+      <list prcSRcdNom="13757" sPrArt="00000000000000005402" sPrArtNm="0 Салат Витаминный с перцем" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="1" sPrCn="26.000000" SklOpa_Rcd="9798" SklPrc_Rcd="74076" EI_Rcd="51" />
+      <list prcSRcdNom="4382" sPrArt="11170000000000001028" sPrArtNm="0 Салат грузинский" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="1" sPrCn="40.000000" SklOpa_Rcd="829" SklPrc_Rcd="74107" EI_Rcd="51" />
+    </lists>
+  </order>
+  <order sum="173.9" id="3" ret="false">
+    <user Type="1" Kpu_Tn="1042" Fio="Садыкова Венера Рафагатовна" SprPdr_NmFull="Цельномолочный цех" Kpu_DtNpSt="14-04-2004" Kpu_DtRoj="23-04-1976" Dol="аппаратчик" />
+    <lists>
+      <list prcSRcdNom="13442" sPrArt="00000000000000005112" sPrArtNm="3 Каша пшеничная" sPrGrpNm="Гарниры" sPrEiSh="порц." SklN_NoTrd="1" sPrCn="16.000000" SklOpa_Rcd="9499" SklPrc_Rcd="74101" EI_Rcd="51" />
+      <list prcSRcdNom="4432" sPrArt="11170000000000001078" sPrArtNm="4 Сырники из творога" sPrGrpNm="Молочные блюда" sPrEiSh="порц." SklN_NoTrd="1" sPrCn="33.000000" SklOpa_Rcd="82" SklPrc_Rcd="74102" EI_Rcd="51" />
+      <list prcSRcdNom="13902" sPrArt="00000000000000005526" sPrArtNm="5 Напиток плодово-ягодный" sPrGrpNm="Третьи блюда" sPrEiSh="порц." SklN_NoTrd="1" sPrCn="16.000000" SklOpa_Rcd="9926" SklPrc_Rcd="74003" EI_Rcd="51" />
+      <list prcSRcdNom="13467" sPrArt="00000000000000005134" sPrArtNm="5 Сахар" sPrGrpNm="Третьи блюда" sPrEiSh="порц." SklN_NoTrd="1" sPrCn="2.500000" SklOpa_Rcd="9524" SklPrc_Rcd="57092" EI_Rcd="51" />
+      <list prcSRcdNom="15203" sPrArt="00000000000000006652" sPrArtNm="3 Капуста цветная жареная" sPrGrpNm="Гарниры" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="35.700000" SklOpa_Rcd="11723" SklPrc_Rcd="74098" EI_Rcd="51" />
+      <list prcSRcdNom="4348" sPrArt="11170000000000000996" sPrArtNm="3 Макаронные изделия отварные" sPrGrpNm="Гарниры" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="17.500000" SklOpa_Rcd="881" SklPrc_Rcd="72877" EI_Rcd="51" />
+    </lists>
+  </order>
+  <order sum="247" id="4" ret="false">
+    <user Type="1" Kpu_Tn="1048" Fio="Трипольская Ирина Викторовна" SprPdr_NmFull="Масло-творожный цех" Kpu_DtNpSt="26-04-2004" Kpu_DtRoj="21-07-1976" Dol="Мастер" />
+    <lists>
+      <list prcSRcdNom="13448" sPrArt="00000000000000005118" sPrArtNm="0 Кетчуп 30г" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="6.000000" SklOpa_Rcd="9503" SklPrc_Rcd="63604" EI_Rcd="51" />
+      <list prcSRcdNom="13757" sPrArt="00000000000000005402" sPrArtNm="0 Салат Витаминный с перцем" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="26.000000" SklOpa_Rcd="9798" SklPrc_Rcd="74076" EI_Rcd="51" />
+      <list prcSRcdNom="4382" sPrArt="11170000000000001028" sPrArtNm="0 Салат грузинский" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="40.000000" SklOpa_Rcd="829" SklPrc_Rcd="74107" EI_Rcd="51" />
+      <list prcSRcdNom="4404" sPrArt="11170000000000001050" sPrArtNm="0 Свекла с изюмом, сметаной" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="18.500000" SklOpa_Rcd="838" SklPrc_Rcd="74077" EI_Rcd="51" />
+      <list prcSRcdNom="4392" sPrArt="11170000000000001038" sPrArtNm="0 Сельдь &quot;под шубой&quot;" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="33.000000" SklOpa_Rcd="822" SklPrc_Rcd="74093" EI_Rcd="51" />
+    </lists>
+  </order>
+  <order sum="828.4" id="5" ret="false">
+    <user Type="1" Kpu_Tn="1075" Fio="Ситников Сергей Петрович" SprPdr_NmFull="Отдел главного механика" Kpu_DtNpSt="11-06-2004" Kpu_DtRoj="03-10-1968" Dol="Наладчик оборудования" />
+    <lists>
+      <list prcSRcdNom="13773" sPrArt="00000000000000005417" sPrArtNm="0 Горчица столовая" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="4" sPrCn="2.000000" SklOpa_Rcd="9813" SklPrc_Rcd="64131" EI_Rcd="51" />
+      <list prcSRcdNom="4401" sPrArt="11170000000000001047" sPrArtNm="0 Салат &quot;Юнга&quot;" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="4" sPrCn="29.500000" SklOpa_Rcd="839" SklPrc_Rcd="74515" EI_Rcd="51" />
+      <list prcSRcdNom="4390" sPrArt="11170000000000001036" sPrArtNm="0 Салат греческий" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="4" sPrCn="37.000000" SklOpa_Rcd="830" SklPrc_Rcd="74496" EI_Rcd="51" />
+      <list prcSRcdNom="13574" sPrArt="00000000000000005227" sPrArtNm="0 Салат из св.капусты с мариноваными грибами" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="4" sPrCn="25.500000" SklOpa_Rcd="9622" SklPrc_Rcd="74516" EI_Rcd="51" />
+      <list prcSRcdNom="3654" sPrArt="11170000000000000313" sPrArtNm="1 Окрошка мясная" sPrGrpNm="Первые блюда" sPrEiSh="порц." SklN_NoTrd="4" sPrCn="32.500000" SklOpa_Rcd="620" SklPrc_Rcd="72806" EI_Rcd="51" />
+      <list prcSRcdNom="3655" sPrArt="11170000000000000314" sPrArtNm="1 Рассольник ленинградский с курицей, сметаной" sPrGrpNm="Первые блюда" sPrEiSh="порц." SklN_NoTrd="4" sPrCn="32.500000" SklOpa_Rcd="621" SklPrc_Rcd="74498" EI_Rcd="51" />
+      <list prcSRcdNom="13764" sPrArt="00000000000000005408" sPrArtNm="2 Биточки по-белорусски" sPrGrpNm="Вторые блюда" sPrEiSh="порц." SklN_NoTrd="4" sPrCn="48.100000" SklOpa_Rcd="9804" SklPrc_Rcd="74517" EI_Rcd="51" />
+    </lists>
+  </order>
+  <order sum="409.2" id="6" ret="false">
+    <user Type="1" Kpu_Tn="3814" Fio="Васильев Сергей Николаевич" SprPdr_NmFull="Отдел информационных технологий" Kpu_DtNpSt="07-12-2022" Kpu_DtRoj="29-08-1989" Dol="Инженер-программист" />
+    <lists>
+      <list prcSRcdNom="13448" sPrArt="00000000000000005118" sPrArtNm="0 Кетчуп 30г" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="6.000000" SklOpa_Rcd="9503" SklPrc_Rcd="63604" EI_Rcd="51" />
+      <list prcSRcdNom="4390" sPrArt="11170000000000001036" sPrArtNm="0 Салат греческий" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="37.000000" SklOpa_Rcd="830" SklPrc_Rcd="74496" EI_Rcd="51" />
+      <list prcSRcdNom="3654" sPrArt="11170000000000000313" sPrArtNm="1 Окрошка мясная" sPrGrpNm="Первые блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="32.500000" SklOpa_Rcd="620" SklPrc_Rcd="72806" EI_Rcd="51" />
+      <list prcSRcdNom="13764" sPrArt="00000000000000005408" sPrArtNm="2 Биточки по-белорусски" sPrGrpNm="Вторые блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="48.100000" SklOpa_Rcd="9804" SklPrc_Rcd="74517" EI_Rcd="51" />
+      <list prcSRcdNom="3693" sPrArt="11170000000000000352" sPrArtNm="2 Жаркое по-домашнему" sPrGrpNm="Вторые блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="81.000000" SklOpa_Rcd="596" SklPrc_Rcd="74519" EI_Rcd="51" />
+    </lists>
+  </order>
+  <order sum="402.4" id="7" ret="false">
+    <user Type="1" Kpu_Tn="1045" Fio="Синицкая Наталья Александровна" SprPdr_NmFull="Цельномолочный цех" Kpu_DtNpSt="22-04-2004" Kpu_DtRoj="04-06-1968" Dol="Оператор расфасовочно-упаковочного автомата" />
+    <lists>
+      <list prcSRcdNom="13448" sPrArt="00000000000000005118" sPrArtNm="0 Кетчуп 30г" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="6.000000" SklOpa_Rcd="9503" SklPrc_Rcd="63604" EI_Rcd="51" />
+      <list prcSRcdNom="4382" sPrArt="11170000000000001028" sPrArtNm="0 Салат грузинский" sPrGrpNm="Холодные блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="40.000000" SklOpa_Rcd="829" SklPrc_Rcd="74107" EI_Rcd="51" />
+      <list prcSRcdNom="3654" sPrArt="11170000000000000313" sPrArtNm="1 Окрошка мясная" sPrGrpNm="Первые блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="32.500000" SklOpa_Rcd="620" SklPrc_Rcd="72806" EI_Rcd="51" />
+      <list prcSRcdNom="13765" sPrArt="00000000000000005409" sPrArtNm="2 Биточки мясные" sPrGrpNm="Вторые блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="42.900000" SklOpa_Rcd="9805" SklPrc_Rcd="74106" EI_Rcd="51" />
+      <list prcSRcdNom="3692" sPrArt="11170000000000000351" sPrArtNm="2 Гуляш из говядины" sPrGrpNm="Вторые блюда" sPrEiSh="порц." SklN_NoTrd="2" sPrCn="79.800000" SklOpa_Rcd="595" SklPrc_Rcd="74080" EI_Rcd="51" />
+    </lists>
+  </order>
+</orders>
